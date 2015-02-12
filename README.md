@@ -1,16 +1,16 @@
-## DAT4 Course Repository
+## DAT6 Course Repository
 
-Course materials for [General Assembly's Data Science course](https://generalassemb.ly/education/data-science/washington-dc/) in Washington, DC (12/15/14 - 3/16/15). View student work in the [student repository](https://github.com/justmarkham/DAT4-students).
+Course materials for [General Assembly's Data Science course](https://generalassemb.ly/education/data-science/washington-dc/) in Washington, DC (2/21/14 - 5/2/15). View student work in the [student repository](https://github.com/sinanuozdemir/DAT6-students).
 
-**Instructors:** Sinan Ozdemir and Kevin Markham. **Teaching Assistant:** Brandon Burroughs.
+**Instructors:** Sinan Ozdemir and Josiah Davis.
 
-**Office hours:** 1-3pm on Saturday and Sunday ([Starbucks at 15th & K](http://www.yelp.com/biz/starbucks-washington-15)), 5:15-6:30pm on Monday (GA)
+**Office hours:** 1-3pm on Saturday and Sunday ([Starbucks at 15th & K](http://www.yelp.com/biz/starbucks-washington-15))
 
 **[Course Project information](project.md)**
 
-Monday | Wednesday
+Saturday | Topic
 --- | ---
-12/15: [Introduction](#class-1-introduction) | 12/17: [Python](#class-2-python)
+2/21:  | [Introduction](#class-1-introduction)
 12/22: [Getting Data](#class-3-getting-data) | 12/24: *No Class*
 12/29: *No Class* | 12/31: *No Class*
 1/5: [Git and GitHub](#class-4-git-and-github) | 1/7: [Pandas](#class-5-pandas)<br>**Milestone:** Question and Data Set
