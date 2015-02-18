@@ -13,7 +13,7 @@ Saturday | Topic
 2/21:  | [Introduction / Pandas](#class-1-introduction)
 2/28:| [Git(hub) / Getting Data]()
 3/7:| [Numpy / Machine Learning / Model Evaluation] ()
-$$ \pi $$ day  | [Probability / Logistic Regression]()
+π  == τ/2 day  | [Probability / Logistic Regression]()
 3/21: | [Linear Regression]()
 3/28: | [Data Problem / Clustering and Visualization]()
 4/2 | [Naive Bayes / Natural Language Processing]()
