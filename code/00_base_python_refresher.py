@@ -1,21 +1,15 @@
 """
 
 ====================================================================
-                        B A S E   P Y T H O N 
+                B A S E     P Y T H O N     R E F R E S H E R
 ====================================================================
 
 """
-
-# Questions to get started:
-    # Why should data scientists learn to program? 
-    # Why learn Python specifically?
-    # What is your programming background? In Python? 
 
 # ==================================================================
 #                           D A T A  T Y P E S
 # ==================================================================
 
-# We'll go over five data types here (all are objects)
 # Integer
 type(2)
 # Float (with the decimal)
@@ -23,7 +17,7 @@ type(2.7)
 type(2.7e+2)
 # Long (more than 10 digits, or L)
 type(27L)
-# String (either "..." or '...' may be used)
+# String (either single ('') or double ("") quotes may be used)
 type("Data Science")
 type('Data Science')
 # Boolean
@@ -156,8 +150,7 @@ dct.keys()
 # Returns the values
 dct.values()
 
-# Quiz: Create a dictionary within the 'dct' dictionary containing your
-# own favorite Monty Python influences
+# Create a dictionary within the 'dct' dictionary 
 dct["Influence"] = { "Asteroids": [13681, 9618, 9619, 9620, 9621, 9622], 
                      "Technology": ["Spam", "Python", "IDLE (for Eric Idle)"],
                      "Food": ["Monty Python's Holy Ale", "Vermonty Python"]}
@@ -166,7 +159,7 @@ dct["Influence"] = { "Asteroids": [13681, 9618, 9619, 9620, 9621, 9622],
 dct["Influence"]["Technology"]
 
 # ==================================================================
-#      T U P L E S --> Immutable data structures
+#      T U P L E S: Immutable data structures
 # ==================================================================
 
 # Tuples are denoted by ()
@@ -195,6 +188,7 @@ s2 = "of an unladen swallow?"
 
 # Concatenate two strings
 s = s1 + " " + s2
+# Also, equivalently
 s = " ".join([s1, s2])
 
 # Replace an item within a string
@@ -297,6 +291,14 @@ for i in range(len(fruits)):
 for fruit in fruits:
     print fruit.upper()
 
+# Dictionaries are also iterable
+for first in dct.items():
+    print first[0]
+
+for first, second in dct.items():
+    print second
+
+
 # ==================================================================
 #                              I M P O R T
 # ==================================================================
@@ -314,7 +316,7 @@ from sklearn.tree import DecisionTreeClassifier
 clf = DecisionTreeClassifier()
        
 # ==================================================================
-#                     L I S T  C O M P R E H E N S I O N
+#                     L I S T   C O M P R E H E N S I O N
 # ==================================================================
 
 # List comprehension is a popular construct in the python programming language:
@@ -334,83 +336,17 @@ for x in numbers:
 # Short form using list comprehension
 lis2 = [x * 5 for x in numbers if isinstance(x, int)]
 
-# ==================================================================
-#                           E X E R C I S E S 
-# ==================================================================
-
-# EXERCISE #1 
-# Create a function that acts as a simple calulator
-# If the operation is not specified, default to addition
-# If the operation is misspecified, return an prompt message
-# Ex: my_calc(4,5,"multiply") returns 20
-# Ex: my_calc(3,5) returns 8
-# Ex: my_calc(1, 2, "something") returns error message
-
-
-# EXERCISE #2
-# Given a list of numbers, return a list where
-# all adjacent duplicate elements have been reduced to a single element.
-# Ex: [1, 2, 2, 3, 2] returns [1, 2, 3, 2]. 
-# You may create a new list or modify the passed in list.
-
-# Bonus: Remove all duplicate values (adjacent or not)
-# Ex: [1, 2, 2, 3, 2] returns [1, 2, 3]
-
-
-# EXERCISE #3
-# Take a string, change it into a list and capitalize all words 
-# that are more than 3 characters long using list comprehension
-# Ex: "Strange women lying in ponds is no basis for government"
-# Returns: ['Strange', 'Women', 'Lying', 'Ponds', 'Basis', 'Government'] 
-
-# Bonus: Same as before, but output should include all words
-# Ex: "Strange women lying in ponds is no basis for government"
-# Returns: ['Strange', 'Women', 'Lying', 'in', 'Ponds', 'is', 
-#                                       'no', 'Basis', 'for', 'Government']
-
-
-
-"""
-====================================================================
-====================================================================
-                    B O N U S   C O N T E N T
-====================================================================
-====================================================================
-"""
-
-
-# ==================================================================
-#           O P T I O N S  F O R  C O D E   E X E C U T I O N
-# ==================================================================
-
-"""
-Command line
-    - Type: 'python myscript.py' to run a script in that directory
-
-Python interpreter
-    - Type 'python' into the CLI to enter the interpreter
-
-iPython interpreter
-    - Type 'IPython' into the CLI to enter the iPython interpreter
-    - Type: run 03_simple.py to run the a script in that directory
-    - iPython interpreter has some features, for starters, it looks nicer
-
-iPython Notebook
-    - Type 'IPython notebook' into the CLI to open the iPython notebook
-    - This is a browser based interpreter that also features in-line plotting
-    - Nice as a stand-alone and also for teaching
-    - Have heard it doesn't do very well with version control, for that 
-
-Spyder IDE 
-    - Nice because allows you to save your code
-    - Works nicely with version control
-    - Allows you to execute parts of your code
-
-"""
 
 # ==================================================================
 #           T H E   W O R K I N G    D I R E C T O R Y
 # ==================================================================
+
+# Using the Spyder GUI:
+#   1) Select the options buttom in the upper right hand cornder of the editor
+#   2) Select "Set console working directory"
+#   3) From now on, any read/write operations will executive relative to
+#      the working directory of the script.
+
 import os
 
 # Check the current working directory
@@ -425,33 +361,3 @@ os.chdir('Scripts')
 # List out the files in the current directory
 for i in os.listdir(os.getcwd()):
     print i
-
-# ==================================================================
-#                   D E S I G N  P H I L O S O P H Y
-# ==================================================================
-
-import this
-
-"""
-Beautiful is better than ugly.
-Explicit is better than implicit.
-Simple is better than complex.
-Complex is better than complicated.
-Flat is better than nested.
-Sparse is better than dense.
-Readability counts.
-Special cases aren't special enough to break the rules.
-Although practicality beats purity.
-Errors should never pass silently.
-Unless explicitly silenced.
-In the face of ambiguity, refuse the temptation to guess.
-There should be one-- and preferably only one --obvious way to do it.
-Although that way may not be obvious at first unless you're Dutch.
-Now is better than never.
-Although never is often better than *right* now.
-If the implementation is hard to explain, it's a bad idea.
-If the implementation is easy to explain, it may be a good idea.
-Namespaces are one honking great idea -- let's do more of those!
-"""
-
-
