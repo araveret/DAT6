@@ -158,6 +158,12 @@ dct["Influence"] = { "Asteroids": [13681, 9618, 9619, 9620, 9621, 9622],
 # Accessing a nested dictionary item
 dct["Influence"]["Technology"]
 
+# A dictionary can be turned into a list
+# Each key/value pair is an element in the list
+dct.items()
+
+# What do the ( ) that enclose each element of the list mean? --> Tuple.
+
 # ==================================================================
 #      T U P L E S: Immutable data structures
 # ==================================================================
