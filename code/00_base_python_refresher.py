@@ -301,6 +301,7 @@ for fruit in fruits:
 for first in dct.items():
     print first[0]
 
+
 for first, second in dct.items():
     print second
 
