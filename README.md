@@ -33,4 +33,14 @@ Saturday | Topic
 * Introduction to General Assembly
 * Course overview: our philosophy and expectations ([slides](slides/01_course_overview.pdf))
 * Data science overview ([slides](slides/01_intro_to_data_science.pdf))
+* TBD: Data Analysis in Python ([code](code/01_pandas.py))
 * Tools: check for proper setup of Anaconda, overview of Slack
+
+#### Homework:
+* TBD: Complete the exercise from class
+* TBD: Create a pull request to your student repo
+
+#### Optional:
+* Review your base python ([code](code/00_base_python_refresher.py))
+* TBD: Watch the videos on Git and GitHub 
+
