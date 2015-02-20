@@ -487,20 +487,31 @@ ufo.groupby('Year').City.count().plot(  kind='line',
                                         color='r', 
                                         linewidth=2, 
                                         title='UFO Sightings by year')
+# -----Analysis-----
+# Clearly, Aliens love the X-Files (which came out in 1993).
+# Aliens are a natural extension of the target demographic so it makes sense.
+
+
 
 # Plot the number of sightings over the day of week and time of day
 ufo.groupby(['Weekday','Hour']).City.count().unstack(0).plot(   kind='line', 
                                                                 linewidth=2,
                                                                 title='UFO Sightings by Time of Day')
+# -----Analysis-----
+# This may be speculative, but it appears that Aliens also enjoy Keggers.
+
+
 
 # Plot the sightings in in July 2014
 ufo[(ufo.Year == 2014) & (ufo.Month == 7)].groupby(['Day']).City.count().plot(  kind='bar',
                                                         color='b', 
                                                         title='UFO Sightings in July 2014')
                                                         
-# Plot multiple plots on the same plot (plots neeed to be in column format)              
+# Plot multiple plots on the same plot (plots neeed to be in column format)
 ufo_fourth = ufo[(ufo.Year.isin([2011, 2012, 2013, 2014])) & (ufo.Month == 7)]
 ufo_fourth.groupby(['Year', 'Day']).City.count().unstack(0).plot(   kind = 'bar',
                                                                     subplots=True,
                                                                     figsize=(7,9))
-                                                                    
+# -----Analysis-----
+# Aliens are love the 4th of July. The White House is still standing. Therefore
+# it follows that Aliens are just here for the party.
