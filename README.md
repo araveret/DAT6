@@ -4,7 +4,7 @@ Course materials for [General Assembly's Data Science course](https://generalass
 
 **Instructors:** Sinan Ozdemir and Josiah Davis.
 
-**Office hours:** 1-3pm on Saturday and Sunday ([Starbucks at 15th & K](http://www.yelp.com/biz/starbucks-washington-15))
+**Office hours:** 1-3pm on Tuesday and TBD at General Assembly
 
 **[Course Project information](project.md)**
 
