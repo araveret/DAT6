@@ -8,9 +8,9 @@ Data Analysis in Python
 
 '''
 Spyder Reference (Windows):
+    Ctrl + Enter    (in the editor):        Runs the line of code
     Ctrl + L        (in the console):       Clears the console
     Up/Down-arrows  (in the console):       Retreives previous commands
-    Ctrl + Enter    (in the editor):        Runs the line of code
     Ctrl + S        (in the editor):        Saves the file              
 '''
 
