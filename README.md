@@ -12,12 +12,12 @@ Saturday | Topic
 --- | ---
 2/21:  | [Introduction / Pandas](#class-1-introduction-/-pandas)
 2/28:| [Git(hub) / Getting Data]()
-3/7:| [Numpy / Machine Learning / Model Evaluation] ()
+3/7:| [Numpy / Machine Learning / Model Evaluation]() <br>**Project Milestone: One Page write up about the idea of your project**
 π  == τ/2 day  | [Probability / Logistic Regression]()
-3/21: | [Linear Regression]()
+3/21: | [Linear Regression]()<br>**Project Milestone: 2-3 minute presentation**
 3/28: | [Data Problem / Clustering and Visualization]()
-4/2 | [Naive Bayes / Natural Language Processing]()
-4/11 | [Decision Trees / Ensembles]()
+4/2 | [Naive Bayes / Natural Language Processing]()<br>**Project Milestone:Deadline to change topic**
+4/11 | [Decision Trees / Ensembles]()<br>**Project Milestone: Peer Review**
 4/18 | [PCA / Databases / MapReduce]()
 4/25 | [Recommendation Engines]()
 5/2 | [Presentations!]()
@@ -38,7 +38,6 @@ Saturday | Topic
 
 #### Homework:
 * [Pandas Homework](homework/01_pandas_homework.md)
-* TBD: Git / GitHub Homework
 
 #### Optional:
 * Review your base python ([code](code/00_base_python_refresher.py))
