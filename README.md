@@ -38,7 +38,6 @@ Saturday | Topic
 
 #### Homework:
 * [Pandas Homework](homework/01_pandas_homework.md)
-* TBD: Git / GitHub Homework
 
 #### Optional:
 * Review your base python ([code](code/00_base_python_refresher.py))
