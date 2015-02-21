@@ -37,7 +37,7 @@ Saturday | Topic
 * Tools: check for proper setup of Anaconda, overview of Slack
 
 #### Homework:
-* [Pandas Homework](homework/01_pandas_homework.md)
+* [Pandas Homework](homework/01_pandas_homework.py)
 
 #### Optional:
 * Review your base python ([code](code/00_base_python_refresher.py))
