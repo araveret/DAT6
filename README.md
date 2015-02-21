@@ -4,13 +4,13 @@ Course materials for [General Assembly's Data Science course](https://generalass
 
 **Instructors:** Sinan Ozdemir and Josiah Davis.
 
-**Office hours:** 1-3pm on Saturday and Sunday ([Starbucks at 15th & K](http://www.yelp.com/biz/starbucks-washington-15))
+**Office hours:** 5-7pm on Tuesday and TBD at General Assembly
 
 **[Course Project information](project.md)**
 
 Saturday | Topic
 --- | ---
-2/21:  | [Introduction / Pandas](#class-1-introduction)
+2/21:  | [Introduction / Pandas](#class-1-introduction-/-pandas)
 2/28:| [Git(hub) / Getting Data]()
 3/7:| [Numpy / Machine Learning / Model Evaluation]() <br>**Project Milestone: One Page write up about the idea of your project**
 π  == τ/2 day  | [Probability / Logistic Regression]()
@@ -29,8 +29,16 @@ Saturday | Topic
 * Once you receive an email invitation from [Slack](https://slack.com/), join our "DAT6 team" and add your photo!
 
 
-### Class 1: Introduction
+### Class 1: Introduction / Pandas
 * Introduction to General Assembly
 * Course overview: our philosophy and expectations ([slides](slides/01_course_overview.pdf))
 * Data science overview ([slides](slides/01_intro_to_data_science.pdf))
+* Data Analysis in Python ([code](code/01_pandas.py))
 * Tools: check for proper setup of Anaconda, overview of Slack
+
+#### Homework:
+* [Pandas Homework](homework/01_pandas_homework.md)
+
+#### Optional:
+* Review your base python ([code](code/00_base_python_refresher.py))
+
