@@ -19,8 +19,6 @@ Reading, Summarizing data
 '''
 
 import pandas as pd  # This line imports  (already installed) python package
-import numpy as np
-import matplotlib.pylab as plt
 
 # Running this next line of code assumes that your console working directory is set up correctly 
 # To set up your working directory
