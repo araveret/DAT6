@@ -1,9 +1,9 @@
 '''
 Data Analysis in Python
 
-    UFO data
+    ----UFO data----
     Scraped from: http://www.nuforc.org/webreports.html
-    
+    Article Analyzing the Dataset: http://josiahjdavis.com/    
 '''
 
 '''
