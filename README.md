@@ -17,7 +17,7 @@ Saturday | Topic | Project Milestone
 3/21: | Linear Regression | [2-3 Minute Presentation](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#march-21-2-3-minute-presentation) 
 3/28: | Data Problem / Clustering and Visualization | 
 4/2 | Naive Bayes / Natural Language Processing | [Deadline for Topic Changes](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#april-2-deadline-for-topic-changes)
-4/11 | Decision Trees / Ensembles | [First Draft Due (Peer Review)](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#april-11-first-draft-due-peer-review)**
+4/11 | Decision Trees / Ensembles | [First Draft Due (Peer Review)](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#april-11-first-draft-due-peer-review)
 4/18 | PCA / Databases / MapReduce | 
 4/25 | Recommendation Engines | 
 5/2 | Project Presentatins | [Presentation](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#may-2-presentation)
@@ -47,6 +47,9 @@ Saturday | Topic | Project Milestone
 * Getting Data ([slides](slides/02_getting_data.pdf))
 * Regular Expressions ([code](code/02_re_example.py))
 * Getting Data ([code](code/02_getting_data.py))
+
+#### Homework:
+* Complete the first [Project Milestone](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#march-7-one-page-write-up-with-data) (Submit on the dat6-students repo via a pull request)
 
 #### Resources:
 * [Forbes: The Facebook Experiment](http://www.forbes.com/sites/dailymuse/2014/08/04/the-facebook-experiment-what-it-means-for-you/)
