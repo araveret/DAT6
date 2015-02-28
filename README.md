@@ -43,7 +43,7 @@ Saturday | Topic
 * Review your base python ([code](code/00_base_python_refresher.py))
 
 ### Class 2: Git(hub) and Getting Data
-* Github: ([slides](slides/02_git_github.pdf))
+* Github: ([slides](slides/02_git_github.pdf)) Way to go!!!
 * Getting Data ([slides](slides/02_getting_data.pdf))
 * Regular Expressions ([code](code/02_re_example.py))
 * Getting Data ([code](code/02_getting_data.py))
