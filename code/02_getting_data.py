@@ -54,21 +54,20 @@ there is no wrapper for this API, so I use requests, a python module for accessi
 to access the information
 in a sense, this is a wrapper that I just wrote for the Natural Language Processing API!
 '''
+phrase= "I really love this song!"
 
-def get_sentiment(phrase):
-    response = requests.post("https://japerk-text-processing.p.mashape.com/sentiment/",
-    headers={
-        "X-Mashape-Key": mashape_key,
-        "Content-Type": "application/x-www-form-urlencoded"
-        },
-    data={
-        "language": "english",
-        "text": phrase
-        }
-    )
-    return json.loads(response.text)
+response = requests.post("https://japerk-text-processing.p.mashape.com/sentiment/",
+headers={
+    "X-Mashape-Key": mashape_key,
+    "Content-Type": "application/x-www-form-urlencoded"
+    },
+data={
+    "language": "english",
+    "text": phrase
+    }
+)
+json.loads(response.text)
 
-print get_sentiment("I really love this song!")
 
 
 
