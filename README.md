@@ -37,8 +37,13 @@ Saturday | Topic
 * Tools: check for proper setup of Anaconda, overview of Slack
 
 #### Homework:
-* [Pandas Homework](homework/01_pandas_homework.py)
+* [Pandas Homework](homework/01_pandas_homework.md)
 
 #### Optional:
 * Review your base python ([code](code/00_base_python_refresher.py))
 
+### Class 2: Git(hub) and Getting Data
+
+#### Resources:
+* [Forbes: The Facebook Experiment](http://www.forbes.com/sites/dailymuse/2014/08/04/the-facebook-experiment-what-it-means-for-you/)
+* [Hacking OkCupid](http://www.wired.com/2014/01/how-to-hack-okcupid/all/)
