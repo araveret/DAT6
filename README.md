@@ -4,7 +4,7 @@ Course materials for [General Assembly's Data Science course](https://generalass
 
 **Instructors:** Sinan Ozdemir and Josiah Davis.
 
-**Office hours:** 5-7pm on Tuesday and 5-7 on Saturday at General Assembly
+**Office hours:** 5-7pm on Tuesday and 5-7pm on Saturday at General Assembly
 
 **[Course Project information](project.md)**
 
