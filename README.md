@@ -43,6 +43,10 @@ Saturday | Topic
 * Review your base python ([code](code/00_base_python_refresher.py))
 
 ### Class 2: Git(hub) and Getting Data
+* Github: ([slides](slides/02_git_github.pdf))
+* Getting Data ([slides](slides/02_getting_data.pdf))
+* Regular Expressions ([code](slides/02_re_example.py))
+* Getting Data ([code](slides/02_getting_data.py))
 
 #### Resources:
 * [Forbes: The Facebook Experiment](http://www.forbes.com/sites/dailymuse/2014/08/04/the-facebook-experiment-what-it-means-for-you/)
