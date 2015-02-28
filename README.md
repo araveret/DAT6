@@ -8,19 +8,19 @@ Course materials for [General Assembly's Data Science course](https://generalass
 
 **[Course Project information](project.md)**
 
-Saturday | Topic
---- | ---
+Saturday | Topic | Project Milestone
+--- | --- | ---
 2/21:  | [Introduction / Pandas](#class-1-introduction-/-pandas)
-2/28:| [Git(hub) / Getting Data]()
-3/7:| [Numpy / Machine Learning / Model Evaluation]() <br>**Project Milestone: One Page Write-up with Data**
-π  == τ/2 day  | [Probability / Logistic Regression]()
-3/21: | [Linear Regression]()<br>**Project Milestone: 2-3 Minute Presentation**
-3/28: | [Data Problem / Clustering and Visualization]()
-4/2 | [Naive Bayes / Natural Language Processing]()<br>[**Project Milestone:Deadline for Topic Changes**](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#march-7-one-page-write-up-with-data)
-4/11 | [Decision Trees / Ensembles]()<br>**Project Milestone: First Draft Due (Peer Review)**
-4/18 | [PCA / Databases / MapReduce]()
-4/25 | [Recommendation Engines]()
-5/2 | [Presentations!]()
+2/28:| [Git(hub) / Getting Data]() | 
+3/7:| [Numpy / Machine Learning / Model Evaluation]() | **Project Milestone: One Page Write-up with Data**
+π  == τ/2 day  | [Probability / Logistic Regression]() | 
+3/21: | [Linear Regression]() | **Project Milestone: 2-3 Minute Presentation** 
+3/28: | [Data Problem / Clustering and Visualization]() | 
+4/2 | [Naive Bayes / Natural Language Processing]() | [**Project Milestone:Deadline for Topic Changes**](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#march-7-one-page-write-up-with-data)
+4/11 | [Decision Trees / Ensembles]()<br>**Project Milestone: First Draft Due (Peer Review)** | 
+4/18 | [PCA / Databases / MapReduce]() | 
+4/25 | [Recommendation Engines]() | 
+5/2 | [Presentations!]() | 
 
 
 ### Installation and Setup
