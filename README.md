@@ -20,7 +20,7 @@ Saturday | Topic | Project Milestone
 4/11 | Decision Trees / Ensembles | [First Draft Due (Peer Review)](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#april-11-first-draft-due-peer-review)
 4/18 | PCA / Databases / MapReduce | 
 4/25 | Recommendation Engines | 
-5/2 | Project Presentatins | [Presentation](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#may-2-presentation)
+5/2 | Project Presentations | [Presentation](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#may-2-presentation)
 
 
 ### Installation and Setup
