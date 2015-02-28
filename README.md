@@ -47,4 +47,3 @@ Saturday | Topic
 #### Resources:
 * [Forbes: The Facebook Experiment](http://www.forbes.com/sites/dailymuse/2014/08/04/the-facebook-experiment-what-it-means-for-you/)
 * [Hacking OkCupid](http://www.wired.com/2014/01/how-to-hack-okcupid/all/)
-* 
