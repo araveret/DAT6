@@ -4,14 +4,14 @@ Course materials for [General Assembly's Data Science course](https://generalass
 
 **Instructors:** Sinan Ozdemir and Josiah Davis.
 
-**Office hours:** 5-7pm on Tuesday and TBD at General Assembly
+**Office hours:** 5-7pm on Tuesday and 5-7 on Saturday at General Assembly
 
 **[Course Project information](project.md)**
 
 Saturday | Topic | Project Milestone
 --- | --- | ---
 2/21:  | [Introduction / Pandas](#class-1-introduction-/-pandas)
-2/28:| [Git(hub) / Getting Data]() | 
+2/28:| [Git(hub) / Getting Data](#class-2-github-and-getting-data) | 
 3/7:| Numpy / Machine Learning / Model Evaluation | [One Page Write-up with Data](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#march-7-one-page-write-up-with-data)
 π  == τ/2 day  | Probability / Logistic Regression | 
 3/21: | Linear Regression | [2-3 Minute Presentation](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#march-21-2-3-minute-presentation) 
