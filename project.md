@@ -44,7 +44,7 @@ If it's not possible or practical to include your entire dataset, you should lin
 ## Milestones
 
 
-### January 7: Question and Data Set
+### March 7: One Page Write-up with Data
 
 What is the question you hope to answer? What data are you planning to use to answer that question? What do you know about the data so far? Why did you choose this topic?
 
@@ -55,7 +55,7 @@ Example:
 * I chose this topic because I'm fascinated by the history of the Titanic.
 
 
-### January 28: Data Exploration and Analysis Plan
+### March 21: 2-3 Minute Presentation 
 
 What data have you gathered, and how did you gather it? What steps have you taken to explore the data? Which areas of the data have you cleaned, and which areas still need cleaning? What insights have you gained from your exploration? Will you be able to answer your question with this data, or do you need to gather more data (or adjust your question)? How might you use modeling to answer your question?
 
@@ -67,15 +67,14 @@ Example:
 * I analyzed the differences between the training and testing sets, and found that the average fare was slightly higher in the testing set.
 * Since I'm predicting a binary outcome, I plan to use a classification method such as logistic regression to make my predictions.
 
-
-### February 4: Deadline for Topic Changes
+### April 2: Deadline for Topic Changes
 
 You may discover during the course of your data exploration that you don't have the data necessary to answer your project question. Talk to your instructors about how to find the data that will help you answer your question!
 
 If you can't find the necessary data and decide that you need to alter your project question, you should submit a description of your revised project no later than this date.
 
 
-### February 18: First Draft Due
+### April 11: First Draft Due (Peer Review)
 
 Upload a rough copy of your work to your own project repository on GitHub. Your peers and instructors will provide feedback, according to [these guidelines](peer_review.md).
 
@@ -94,12 +93,6 @@ Tips for success:
 * The better you explain your project, and the easier it is to follow, the more useful feedback you will receive!
 * If your reviewers can actually run your code on the provided data, they will be able to give you more useful feedback on your code. (It can be very hard to make useful code suggestions on code that can't be run!)
 
-
-### March 4: Second Draft Due (Optional)
-
-If you would like additional feedback on your project, submit a revised version of your project. Your instructors will provide feedback. (There is no peer review for the second draft.)
-
-
-### March 11 and 16: Presentation
+### May 2: Presentation
 
 Deliver your project presentation in class, and submit all required deliverables (paper, slides, code, data, and data dictionary).
