@@ -37,7 +37,7 @@ Saturday | Topic | Project Milestone
 * Tools: check for proper setup of Anaconda, overview of Slack
 
 #### Homework:
-* [Pandas Homework](homework/code/01_pandas_homework.py)
+* [Pandas Homework](homework/homework/01_pandas_homework.py)
 
 #### Optional:
 * Review your base python ([code](code/00_base_python_refresher.py))
