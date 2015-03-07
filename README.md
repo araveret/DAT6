@@ -61,7 +61,7 @@ Saturday | Topic | Project Milestone
 ### Class 3: Advanced Pandas and Numpy and Machine Learning
 * Advanced pandas ([code]())
 * Numpy ([code](code/03_numpy.py))
-* Intro. to Machine Learning ([slides]()[code]())
+* Intro. to Machine Learning ([slides](), [code]())
 
 #### Homework:
 * Complete the advanced [Pandas homework](homework/05_pandas.md) and submit to the student repository
