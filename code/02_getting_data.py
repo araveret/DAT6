@@ -54,20 +54,21 @@ there is no wrapper for this API, so I use requests, a python module for accessi
 to access the information
 in a sense, this is a wrapper that I just wrote for the Natural Language Processing API!
 '''
-phrase= "I really love this song!"
 
-response = requests.post("https://japerk-text-processing.p.mashape.com/sentiment/",
-headers={
-    "X-Mashape-Key": mashape_key,
-    "Content-Type": "application/x-www-form-urlencoded"
-    },
-data={
-    "language": "english",
-    "text": phrase
-    }
-)
-json.loads(response.text)
+def get_sentiment(phrase):
+    response = requests.post("https://japerk-text-processing.p.mashape.com/sentiment/",
+    headers={
+        "X-Mashape-Key": mashape_key,
+        "Content-Type": "application/x-www-form-urlencoded"
+        },
+    data={
+        "language": "english",
+        "text": phrase
+        }
+    )
+    return json.loads(response.text)
 
+print get_sentiment("this blows")
 
 
 
@@ -75,7 +76,7 @@ json.loads(response.text)
 Example of API WITH WRAPPER
 tweepy is the python wrapper for twitter data
 '''
-tag = 'starbucks'
+tag = ''
 
 # Documentation is your friend!
 auth = tweepy.OAuthHandler(api_key, api_secret)
@@ -136,6 +137,6 @@ def begin_live_feed(tags_to_follow):
     stream = tweepy.Stream(auth, l)
     stream.filter(track=tags_to_follow)
 
-begin_live_feed(['@ga', '@ga_ny', '@ga_dc'])
+begin_live_feed(['#thedress', '#HouseOfCards'])
 # this is an example use, if you create a list of words and phrases, 
 # a live stream of tweets about them will show up

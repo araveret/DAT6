@@ -28,13 +28,13 @@ pattern2 = re.compile("\d+")
 re.search(pattern2, text).group(0) # == '2014'
 
 # use square brackets [] to match one of the items present
-alphabet = 'abcdefg'
-pattern3 = re.compile('[cfg]')
+alphabet = 'abcfgfcgfgccffgfgcfcgfgfIBETITENDSHEREfg'
+pattern3 = re.compile('cgf')
 re.search(pattern3, alphabet).group(0)
 
-phone_pattern = re.compile("\d+-\d+-\d+")
+phone_pattern = re.compile("\d\d\d-\d\d\d-\d\d\d\d")
 # this will capture something like a phone pattern
-re.search(phone_pattern, "my phone number is 609-462-6706 dude").group(0)
+re.search(phone_pattern, "my phone number is 609-4699992-6706 dude").group(0)
 
 
 # . matches ANYTHING
@@ -60,6 +60,6 @@ re.search(complicated_pattern, sentence).group(0)
 # try making an email pattern that will take in any numberof alphanumeric 
 # characters and periods
 # accompanied with an @ and the ending pattern we will assume is just .com
-email_pattern = re.compile(".*")
+email_pattern = re.compile("[\w\.]*@[\w\.]+\.com")
 email_re = re.search(email_pattern, "my email address is sinan.u.ozdemir@gmail.com")
 email_re.group(0) # == 'sinan.u.ozdemir@gmail.com'
