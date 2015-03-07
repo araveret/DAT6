@@ -12,8 +12,8 @@ Saturday | Topic | Project Milestone
 --- | --- | ---
 2/21:  | [Introduction / Pandas](#class-1-introduction-/-pandas)
 2/28:| [Git(hub) / Getting Data](#class-2-github-and-getting-data) | 
-3/7:| Numpy / Machine Learning / Model Evaluation | [One Page Write-up with Data](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#march-7-one-page-write-up-with-data)
-π  == τ/2 day  | Probability / Logistic Regression | 
+3/7:| [Advanced Pandas / Numpy / Machine Learning](#class-3-advanced-pandas,-numpy-and-machine-learning) | [One Page Write-up with Data](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#march-7-one-page-write-up-with-data)
+π  == τ/2 day  | Model Evaluation / Model Evaluation / Logistic Regression | 
 3/21: | Linear Regression | [2-3 Minute Presentation](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#march-21-2-3-minute-presentation) 
 3/28: | Data Problem / Clustering and Visualization | 
 4/2 | Naive Bayes / Natural Language Processing | [Deadline for Topic Changes](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#april-2-deadline-for-topic-changes)
@@ -43,7 +43,7 @@ Saturday | Topic | Project Milestone
 * Review your base python ([code](code/00_base_python_refresher.py))
 
 ### Class 2: Git(hub) and Getting Data
-* Github: ([slides](slides/02_git_github.pdf)) Way to go!!!
+* Github: ([slides](slides/02_git_github.pdf))
 * Getting Data ([slides](slides/02_getting_data.pdf))
 * Regular Expressions ([code](code/02_re_example.py))
 * Getting Data ([code](code/02_getting_data.py))
@@ -55,4 +55,22 @@ Saturday | Topic | Project Milestone
 * [Forbes: The Facebook Experiment](http://www.forbes.com/sites/dailymuse/2014/08/04/the-facebook-experiment-what-it-means-for-you/)
 * [Hacking OkCupid](http://www.wired.com/2014/01/how-to-hack-okcupid/all/)
 * [Videos](http://www.dataschool.io/git-and-github-videos-for-beginners/) on Git and GitHub. Created by one of our very own General Assembly Instructors, Kevin Markham.
-* [Reference](http://www.dataschool.io/git-quick-reference-for-beginners/) for common Git commands (created by Kevin Markham).  
+* [Reference](http://www.dataschool.io/git-quick-reference-for-beginners/) for common Git commands (created by Kevin Markham).
+* Solutions to last week's pandas homework assignment ([code](homework/01_pandas_solutions.py))
+
+### Class 3: Advanced Pandas, Numpy and Machine Learning
+* Advanced pandas ([code]())
+* Numpy ([code](code/03_numpy.py))
+* Intro. to Machine Learning ([slides]()[code]())
+
+#### Homework:
+* Complete the advanced [Pandas homework](homework/05_pandas.md) and submit to the student repository
+
+* Read this excellent article, [Understanding the Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html), and be prepared to discuss it in class on Wednesday. (You can ignore sections 4.2 and 4.3.) Here are some questions to think about while you read:
+    * In the Party Registration example, what are the features? What is the response? Is this a regression or classification problem?
+    * In the interactive visualization, try using different values for K across different sets of training data. What value of K do you think is "best"? How do you define "best"?
+    * In the visualization, what do the lighter colors versus the darker colors mean? How is the darkness calculated?
+    * How does the choice of K affect model bias? How about variance?
+    * As you experiment with K and generate new training data, how can you "see" high versus low variance? How can you "see" high versus low bias?
+    * Why should we care about variance at all? Shouldn't we just minimize bias and ignore variance?
+    * Does a high value for K cause over-fitting or under-fitting?
