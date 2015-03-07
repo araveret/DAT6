@@ -28,9 +28,9 @@ Saturday | Topic | Project Milestone
 * Install [Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and create a [GitHub](https://github.com/) account.
 * Once you receive an email invitation from [Slack](https://slack.com/), join our "DAT6 team" and add your photo!
 
-
+------
 ### Class 1: Introduction / Pandas
----
+------
 * Introduction to General Assembly
 * Course overview: our philosophy and expectations ([slides](slides/01_course_overview.pdf))
 * Data science overview ([slides](slides/01_intro_to_data_science.pdf))
