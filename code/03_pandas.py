@@ -32,10 +32,6 @@ plt.ylabel('Count')
 plt.show()                                  # show plot window (if it doesn't automatically appear)
 plt.savefig('countries_per_continent.png')  # save plot to file
 
-# bar plot of average number of beer servings (per adult per year) by continent
-drinks.groupby('continent').beer_servings.mean().plot(kind='bar')
-plt.ylabel('Average Number of Beer Servings Per Year')
-
 # histogram of beer servings (shows the distribution of a numeric column)
 drinks.beer_servings.hist(bins=20)
 plt.xlabel('Beer Servings')
@@ -70,10 +66,11 @@ pd.scatter_matrix(drinks)
 
 '''
 Indexing
-
 '''
+
 # Read in ufo data
 ufo = pd.read_csv('../data/ufo.csv')   
+ufo.rename(columns={'Colors Reported':'Colors', 'Shape Reported':'Shape'}, inplace=True)
 
 # Create a new index
 ufo.set_index('State', inplace=True)
