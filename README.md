@@ -66,7 +66,7 @@ Saturday | Topic | Project Milestone
 ### Class 3: Advanced Pandas and Numpy and Machine Learning
 **Agenda:**
 * Advanced pandas ([code](code/03_pandas.py))
-* Iris exploration exercise ([exercise](code/03_iris_prework.py)[solutions](code/03_iris_solutions.py))
+* Iris exploration exercise ([exercise](code/03_iris_prework.py), [solutions](code/03_iris_solutions.py))
 * Intro. to Machine Learning ([slides](slides/03_ml_knn.pdf), [code](code/03_sklearn_knn.py))
 
 **Homework:**
