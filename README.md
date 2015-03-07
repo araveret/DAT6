@@ -30,7 +30,7 @@ Saturday | Topic | Project Milestone
 
 ------
 ### Class 1: Introduction / Pandas
-------
+
 * Introduction to General Assembly
 * Course overview: our philosophy and expectations ([slides](slides/01_course_overview.pdf))
 * Data science overview ([slides](slides/01_intro_to_data_science.pdf))
@@ -43,8 +43,9 @@ Saturday | Topic | Project Milestone
 #### Optional:
 * Review your base python ([code](code/00_base_python_refresher.py))
 
+------
 ### Class 2: Git(hub) and Getting Data
----
+
 * Github: ([slides](slides/02_git_github.pdf))
 * Getting Data ([slides](slides/02_getting_data.pdf))
 * Regular Expressions ([code](code/02_re_example.py))
@@ -60,6 +61,7 @@ Saturday | Topic | Project Milestone
 * [Reference](http://www.dataschool.io/git-quick-reference-for-beginners/) for common Git commands (created by Kevin Markham).
 * Solutions to last week's pandas homework assignment ([code](homework/01_pandas_solutions.py))
 
+------
 ### Class 3: Advanced Pandas and Numpy and Machine Learning
 * Advanced pandas ([code](code/03_pandas.py))
 * Numpy ([code](code/03_numpy.py))
