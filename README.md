@@ -66,7 +66,7 @@ Saturday | Topic | Project Milestone
 ### Class 3: Advanced Pandas and Numpy and Machine Learning
 **Agenda:**
 * Advanced pandas ([code](code/03_pandas.py))
-* Numpy ([code](code/03_numpy.py))
+* Iris exploration exercise ([solutions](code/03_iris_solutions.py))
 * Intro. to Machine Learning ([slides](slides/03_ml_knn.pdf), [code](code/03_sklearn_knn.py))
 
 **Homework:**
@@ -86,4 +86,5 @@ Saturday | Topic | Project Milestone
 * To learn how to customize your plots further, browse through this [notebook on matplotlib](http://nbviewer.ipython.org/github/fonnesbeck/Bios366/blob/master/notebooks/Section2_4-Matplotlib.ipynb) (long!) and check out the [matplotlib documentation](http://matplotlib.org/faq/usage_faq.html).
 * To explore different types of visualizations and when to use them, Columbia's Data Mining class has an excellent [slide deck](http://www2.research.att.com/~volinsky/DataMining/Columbia2011/Slides/Topic2-EDAViz.ppt).
 * For a more in-depth look at machine learning, read section 2.1 (14 pages) of Hastie and Tibshirani's excellent book, [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/). (It's a free PDF download!)
+* To learn about NumPy check out this [reference code](code/03_numpy.py)
 
