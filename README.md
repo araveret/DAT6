@@ -30,31 +30,32 @@ Saturday | Topic | Project Milestone
 
 ------
 ### Class 1: Introduction / Pandas
-
+**Agenda:**
 * Introduction to General Assembly
 * Course overview: our philosophy and expectations ([slides](slides/01_course_overview.pdf))
 * Data science overview ([slides](slides/01_intro_to_data_science.pdf))
 * Data Analysis in Python ([code](code/01_pandas.py))
 * Tools: check for proper setup of Anaconda, overview of Slack
 
-#### Homework:
+**Homework:**
 * [Pandas Homework](homework/01_pandas_homework.py)
 
-#### Optional:
+**Optional:**
 * Review your base python ([code](code/00_base_python_refresher.py))
 
 ------
 ### Class 2: Git(hub) and Getting Data
 
+**Agenda:**
 * Github: ([slides](slides/02_git_github.pdf))
 * Getting Data ([slides](slides/02_getting_data.pdf))
 * Regular Expressions ([code](code/02_re_example.py))
 * Getting Data ([code](code/02_getting_data.py))
 
-#### Homework:
+**Homework:**
 * Complete the first [Project Milestone](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#march-7-one-page-write-up-with-data) (Submit on the [Dat6-students](https://github.com/sinanuozdemir/DAT6-students) repo via a pull request)
 
-#### Resources:
+**Resources:**
 * [Forbes: The Facebook Experiment](http://www.forbes.com/sites/dailymuse/2014/08/04/the-facebook-experiment-what-it-means-for-you/)
 * [Hacking OkCupid](http://www.wired.com/2014/01/how-to-hack-okcupid/all/)
 * [Videos](http://www.dataschool.io/git-and-github-videos-for-beginners/) on Git and GitHub. Created by one of our very own General Assembly Instructors, Kevin Markham.
@@ -63,11 +64,12 @@ Saturday | Topic | Project Milestone
 
 ------
 ### Class 3: Advanced Pandas and Numpy and Machine Learning
+**Agenda:**
 * Advanced pandas ([code](code/03_pandas.py))
 * Numpy ([code](code/03_numpy.py))
 * Intro. to Machine Learning ([slides](slides/03_ml_knn.pdf), [code](code/03_sklearn_knn.py))
 
-#### Homework:
+**Homework:**
 * Complete the advanced [Pandas homework](homework/03_pandas_homework.md) and submit to the student repository
 
 * Read this excellent article, [Understanding the Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html), and be prepared to discuss it next class. (You can ignore sections 4.2 and 4.3.) Here are some questions to think about while you read:
@@ -79,7 +81,7 @@ Saturday | Topic | Project Milestone
     * Why should we care about variance at all? Shouldn't we just minimize bias and ignore variance?
     * Does a high value for K cause over-fitting or under-fitting?
 
-####Resources:
+**Resources:**
 * For more on Pandas plotting, read the [visualization page](http://pandas.pydata.org/pandas-docs/stable/visualization.html) from the official Pandas documentation.
 * To learn how to customize your plots further, browse through this [notebook on matplotlib](http://nbviewer.ipython.org/github/fonnesbeck/Bios366/blob/master/notebooks/Section2_4-Matplotlib.ipynb) (long!) and check out the [matplotlib documentation](http://matplotlib.org/faq/usage_faq.html).
 * To explore different types of visualizations and when to use them, Columbia's Data Mining class has an excellent [slide deck](http://www2.research.att.com/~volinsky/DataMining/Columbia2011/Slides/Topic2-EDAViz.ppt).
