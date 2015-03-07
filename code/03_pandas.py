@@ -1,21 +1,79 @@
 '''
 Advanced Data Analysis in Python
 
+    ----Drinks data----
+    Downloaded from: https://github.com/fivethirtyeight/data/tree/master/alcohol-consumption
+    Article Analyzing the Dataset: http://fivethirtyeight.com/datalab/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/
+
     ----UFO data----
     Scraped from: http://www.nuforc.org/webreports.html
-    Article Analyzing the Dataset: http://josiahjdavis.com/    
+    Article Analyzing the Dataset: http://josiahjdavis.com/ 
+    
 '''
 
 # Import pandas package
 import pandas as pd
 import numpy as np
+import matplotlib.pylab as plt
 
-# Read in ufo data
-ufo = pd.read_csv('../data/ufo.csv')   
+'''
+Plotting
+
+(Modified from excellent examples created by Kevin Markham)
+'''
+
+# Read drinks.csv into a DataFrame called 'drinks'
+drinks = pd.read_csv('../data/drinks.csv')
+
+# bar plot of number of countries in each continent
+drinks.continent.value_counts().plot(kind='bar', title='Countries per Continent')
+plt.xlabel('Continent')
+plt.ylabel('Count')
+plt.show()                                  # show plot window (if it doesn't automatically appear)
+plt.savefig('countries_per_continent.png')  # save plot to file
+
+# bar plot of average number of beer servings (per adult per year) by continent
+drinks.groupby('continent').beer_servings.mean().plot(kind='bar')
+plt.ylabel('Average Number of Beer Servings Per Year')
+
+# histogram of beer servings (shows the distribution of a numeric column)
+drinks.beer_servings.hist(bins=20)
+plt.xlabel('Beer Servings')
+plt.ylabel('Frequency')
+
+# density plot of beer servings (smooth version of a histogram)
+drinks.beer_servings.plot(kind='density', xlim=(0,500))
+plt.xlabel('Beer Servings')
+
+# grouped histogram of beer servings (shows the distribution for each group)
+drinks.beer_servings.hist(by=drinks.continent)
+drinks.beer_servings.hist(by=drinks.continent, sharex=True)
+drinks.beer_servings.hist(by=drinks.continent, sharex=True, sharey=True)
+drinks.beer_servings.hist(by=drinks.continent, layout=(1, 5))   # change layout (new in pandas 0.15.0)
+
+# boxplot of beer servings by continent (shows five-number summary and outliers)
+drinks.boxplot(column='beer_servings', by='continent')
+
+# scatterplot of beer servings versus wine servings
+drinks.plot(kind='scatter', x='beer_servings', y='wine_servings', alpha=0.3)
+
+# same scatterplot, except point color varies by 'spirit_servings'
+# note: must use 'c=drinks.spirit_servings' prior to pandas 0.15.0
+drinks.plot(kind='scatter', x='beer_servings', y='wine_servings', c=drinks.spirit_servings, colormap='Blues')
+
+# same scatterplot, except all European countries are colored red
+colors = np.where(drinks.continent=='EU', 'r', 'b')
+drinks.plot(x='beer_servings', y='wine_servings', kind='scatter', c=colors)
+
+# scatterplot matrix of all numerical columns
+pd.scatter_matrix(drinks)
 
 '''
 Indexing
+
 '''
+# Read in ufo data
+ufo = pd.read_csv('../data/ufo.csv')   
 
 # Create a new index
 ufo.set_index('State', inplace=True)
@@ -33,7 +91,6 @@ ufo.loc[['ND', 'WY'],:]
 ufo.loc['ND':'WY',:]                # Error because of sorting
 ufo.sort_index(inplace=True)
 ufo.loc['ND':'WY',:]
-
 
 # Reset the index
 ufo.reset_index(level='City', inplace=True) # Remove a certain label from the index
@@ -82,7 +139,6 @@ ufo.head()
 ufo.loc['1995',:]
 ufo.loc['1995-01',:]
 ufo.loc['1995-01-01',:]
-
 
 # Access range of times/ranges
 ufo.loc['1995':,:]
