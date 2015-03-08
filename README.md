@@ -12,7 +12,7 @@ Saturday | Topic | Project Milestone
 --- | --- | ---
 2/21:  | [Introduction / Pandas](#class-1-introduction-/-pandas)
 2/28:| [Git(hub) / Getting Data](#class-2-github-and-getting-data) | 
-3/7:| [Advanced Pandas / Numpy / Machine Learning](#class-3-advanced-pandas-and-numpy-and-machine-learning) | [One Page Write-up with Data](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#march-7-one-page-write-up-with-data)
+3/7:| [Advanced Pandas / Machine Learning](#class-3-advanced-pandas--and-machine-learning) | [One Page Write-up with Data](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#march-7-one-page-write-up-with-data)
 π  == τ/2 day  | Model Evaluation / Model Evaluation / Logistic Regression | 
 3/21: | Linear Regression | [2-3 Minute Presentation](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#march-21-2-3-minute-presentation) 
 3/28: | Data Problem / Clustering and Visualization | 
@@ -63,7 +63,7 @@ Saturday | Topic | Project Milestone
 * Solutions to last week's pandas homework assignment ([code](homework/01_pandas_solutions.py))
 
 ------
-### Class 3: Advanced Pandas and Numpy and Machine Learning
+### Class 3: Advanced Pandas and Machine Learning
 **Agenda:**
 * Advanced pandas ([code](code/03_pandas.py))
 * Iris exploration exercise ([exercise](code/03_iris_prework.py), [solutions](code/03_iris_solutions.py))
