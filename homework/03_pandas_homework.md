@@ -1,4 +1,4 @@
-## Class 1 Homework: Pandas
+## Class 3 Homework: Pandas
 
 Check out this excellent example of [data wrangling and exploration in Pandas](http://nbviewer.ipython.org/github/cs109/content/blob/master/lec_04_wrangling.ipynb).
 
