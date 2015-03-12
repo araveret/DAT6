@@ -101,10 +101,18 @@ grid = GridSearchCV(knn, param_grid, cv=5, scoring='accuracy')
 grid.fit(X, y)
 
 # check the results of the grid search
-grid.grid_scores_[0][1]
+grid.grid_scores_
 grid_mean_scores = [result[1] for result in grid.grid_scores_]
 plt.figure()
+plt.ylim([0.9, 1])
+plt.xlabel('Tuning Parameter: N nearest neighbors')
+plt.ylable('Classification Accuracy')
 plt.plot(k_range, grid_mean_scores)
 grid.best_score_
 grid.best_params_
 grid.best_estimator_
+plt.plot(grid.best_params_['n_neighbors'], grid.best_score_, 'ro', markersize=12, markeredgewidth=1.5,
+         markerfacecolor='None', markeredgecolor='r')
+         
+
+         
