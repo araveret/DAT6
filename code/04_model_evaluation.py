@@ -59,7 +59,7 @@ out_of_sample = [[5, 4, 3, 2], [4, 3, 2, 1]]
 knn.predict(out_of_sample)
 
 # verify that a different train/test split can result in a different test set error
-X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1)
+X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=20)
 knn = KNeighborsClassifier(n_neighbors=5)
 knn.fit(X_train, y_train)
 knn.score(X_test, y_test)
@@ -101,7 +101,7 @@ grid = GridSearchCV(knn, param_grid, cv=5, scoring='accuracy')
 grid.fit(X, y)
 
 # check the results of the grid search
-grid.grid_scores_
+grid.grid_scores_[0][1]
 grid_mean_scores = [result[1] for result in grid.grid_scores_]
 plt.figure()
 plt.plot(k_range, grid_mean_scores)
