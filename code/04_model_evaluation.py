@@ -113,6 +113,3 @@ grid.best_params_
 grid.best_estimator_
 plt.plot(grid.best_params_['n_neighbors'], grid.best_score_, 'ro', markersize=12, markeredgewidth=1.5,
          markerfacecolor='None', markeredgecolor='r')
-         
-
-         
