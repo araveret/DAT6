@@ -44,7 +44,7 @@ PART II - LOGISTIC REGRESSION
 
 # 1 - Run a logistic regression on the balance variable
 
-# 2 - Is the beta value associated with balance significant?
+# 2 - What are the beta values?
 
 # 3 - Predict the probability of default for someone with a balance of $1.2k and $2.5k
 
