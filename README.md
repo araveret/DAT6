@@ -95,3 +95,12 @@ Saturday | Topic | Project Milestone
 * Model Evaluation Procedures ([slides](slides/04_model_evaluation_procedures.pdf), [code](code/04_model_evaluation.py))
 * Logistic Regression ([slides](slides/04_logistic_regression.pdf), [exercise](code/04_logistic_regression_exercise.py))
 * Model Evalutation Metrics ([slides](slides/04_model_evaluation_metrics.pdf), [code](code/04_confusion_roc.py))
+
+**Homework:**
+* Your Homework for this week is to prepare a [2-3 minute presenation](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#march-21-2-3-minute-presentation) and submit a pull request before class.
+
+**Resources:**
+* For more on logistic regression, watch the [first three videos](https://www.youtube.com/playlist?list=PL5-da3qGB5IC4vaDba5ClatUmFppXLAhE) (30 minutes total) from Chapter 4 of An Introduction to Statistical Learning.
+* UCLA's IDRE has a handy table to help you remember the [relationship between probability, odds, and log-odds](http://www.ats.ucla.edu/stat/mult_pkg/faq/general/odds_ratio.htm).
+* Better Explained has a very friendly introduction (with lots of examples) to the [intuition behind "e"](http://betterexplained.com/articles/an-intuitive-guide-to-exponential-functions-e/).
+* Here are some useful lecture notes on [interpreting logistic regression coefficients](http://www.unm.edu/~schrader/biostat/bio2/Spr06/lec11.pdf).
