@@ -46,7 +46,7 @@ PART II - LOGISTIC REGRESSION
 
 # 2 - What are the beta values?
 
-# 3 - Predict the probability of default for someone with a balance of $1.2k and $2.5k
+# 3 - Predict the probability of default for someone with a balance of $1.7k and $2.5k
 
 # 4 - Plot the fitted logistic function overtop of the data points
 
