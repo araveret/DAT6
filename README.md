@@ -88,3 +88,10 @@ Saturday | Topic | Project Milestone
 * For a more in-depth look at machine learning, read section 2.1 (14 pages) of Hastie and Tibshirani's excellent book, [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/). (It's a free PDF download!)
 * To learn about NumPy check out this [reference code](code/03_numpy.py)
 
+------
+### Class 4: Model Evaluation and Logistic Regression
+**Agenda:**
+* [The Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html)
+* Model Evaluation Procedures ([slides](slides/04_model_evaluation_procedures.pdf), [code](code/04_model_evaluation.py))
+* Logistic Regression ([slides](slides/04_logistic_regression.pdf), [exercise](code/04_logistic_regression_exercise.py))
+* Model Evalutation Metrics ([slides](slides/04_model_evaluation_metrics.pdf), [code](code/04_confusion_roc.py))

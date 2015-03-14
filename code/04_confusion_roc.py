@@ -6,7 +6,7 @@ CLASS: Model evaluation metrics (confusion matrix, ROC/AUC)
 
 # read in the data
 import pandas as pd
-data = pd.read_csv('https://raw.githubusercontent.com/justmarkham/DAT3/master/data/Default.csv')
+data = pd.read_csv('../data/Default.csv')
 
 # create X and y
 X = data[['balance']]
