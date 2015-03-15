@@ -93,7 +93,7 @@ Saturday | Topic | Project Milestone
 **Agenda:**
 * [The Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html)
 * Model Evaluation Procedures ([slides](slides/04_model_evaluation_procedures.pdf), [code](code/04_model_evaluation.py))
-* Logistic Regression ([slides](slides/04_logistic_regression.pdf), [exercise](code/04_logistic_regression_exercise.py))
+* Logistic Regression ([slides](slides/04_logistic_regression.pdf), [exercise](code/04_logistic_regression_exercise.py), [solutions](code/04_logistic_regression_solutions.py))
 * Model Evalutation Metrics ([slides](slides/04_model_evaluation_metrics.pdf), [code](code/04_confusion_roc.py))
 
 **Homework:**
