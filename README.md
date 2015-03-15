@@ -100,6 +100,7 @@ Saturday | Topic | Project Milestone
 * Your Homework for this week is to prepare a [2-3 minute presenation](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#march-21-2-3-minute-presentation) and submit a pull request before class.
 
 **Resources:**
+* For more on the ROC Curve / AUC, watch the [video](http://www.dataschool.io/roc-curves-and-auc-explained/) (14 minutes total) created by one of our very own GA instructors, Kevin Markham.
 * For more on logistic regression, watch the [first three videos](https://www.youtube.com/playlist?list=PL5-da3qGB5IC4vaDba5ClatUmFppXLAhE) (30 minutes total) from Chapter 4 of An Introduction to Statistical Learning.
 * UCLA's IDRE has a handy table to help you remember the [relationship between probability, odds, and log-odds](http://www.ats.ucla.edu/stat/mult_pkg/faq/general/odds_ratio.htm).
 * Better Explained has a very friendly introduction (with lots of examples) to the [intuition behind "e"](http://betterexplained.com/articles/an-intuitive-guide-to-exponential-functions-e/).
