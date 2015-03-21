@@ -60,28 +60,12 @@ slm.coef_
 EXERCISE:
 1) Given coefficient estimates, predict the y-value for train.Radio.min()
 & train.Radio.max()
-2) Create a scatter plot that also shows the data
+2) Create a scatter plot that also shows the data and the line of best fit
 
 Hint: Use the following convention plt.plot([x_min, x_max], [y_min, y_max])
 '''
 
-# QUIZ ANSWER
-xmin = train.Radio.min()
-xmax = train.Radio.max()
-ymin = slm.intercept_ + slm.coef_ * train.Radio.min()
-ymax = slm.intercept_ + slm.coef_ * train.Radio.max()
-plt.plot([xmin, xmax],[ymin,ymax], linewidth=2,color='r')
-plt.scatter(train.Radio, train.Sales)
-plt.xlabel('Radio'); plt.ylabel('Sales')
 
-# Alternatively, we can use the predict method
-ymin = slm.predict(train.Radio.min())
-ymax = slm.predict(train.Radio.max())
-
-# Plot the data (similar to before)
-plt.plot([xmin, xmax],[ymin,ymax], linewidth=2, color='k', ls=':')
-plt.scatter(train.Radio, train.Sales)
-plt.xlabel('Radio'); plt.ylabel('Sales')
 
 '''
 Model Evaluation
@@ -103,19 +87,9 @@ EXERCISE:
         What does this suggest practically?
 2) Calculate the 5-fold CV RMSE. Is it better or worse than before?
 '''
-# Fit a multiple linear regression model using OLS
-lm = LinearRegression()
-feature_cols = ['TV', 'Radio']
-lm.fit(train[feature_cols], train['Sales'])
 
-# Evaluate the output
-lm.intercept_
-lm.coef_
-zip(feature_cols, lm.coef_)
 
-# Run the cross validation
-scores = cross_val_score(lm, adv[feature_cols], adv['Sales'], cv=10, scoring='mean_squared_error')
-np.mean(np.sqrt(-scores))
+
 
 '''
 Common Transformations
@@ -182,7 +156,7 @@ Overview of the StatsModels package
 
 The StatsModels packages has some nice features for linear modeling. However
 we will be using the scikit-learn package for much of the remainder of 
-the course.
+the course because of its extensibility to other techniques.
 '''
 
 import statsmodels.formula.api as smf
@@ -190,8 +164,6 @@ import statsmodels.formula.api as smf
 # Create a fitted model with all three features
 lm = smf.ols(formula='Sales ~ TV + Radio + Newspaper', data=adv).fit()
 
-# Print the coefficients
-lm.params
 # Print the coefficients
 lm.params
 
