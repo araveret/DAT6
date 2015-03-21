@@ -186,3 +186,50 @@ lm.summary()
 # Include the log response
 lm = smf.ols(formula='np.log(Sales) ~ TV', data=adv).fit()
 lm.summary()
+
+
+'''
+Regression by Hand - Toy DataSet
+'''
+
+import numpy as np
+
+# Create a toy data set
+X0 = [1, 1, 1, 1, 1]
+X1 = [5, 1, 23.5, 5, 1.512]
+X2 = [4, 5.1, 7, 8.7, 9]
+
+X = np.matrix([X0, X1, X2]).T
+Y = np.matrix([10.0, 33.1, 5.7, 200, 105.3]).T
+
+# Estimate coefficients with matrix algebra
+beta_hat = (X.T * X).I * X.T * Y
+beta_hat
+
+# Estimate coefficients with statsmodels
+import statsmodels.api as sm
+est = sm.OLS(Y, X).fit()
+est.params
+
+# Estimate coefficients with scikit learn
+est = LinearRegression(fit_intercept=False).fit(X,Y)
+est.coef_
+
+'''
+Regression by Hand - Advertising DataSet
+'''
+adv['constant'] = 1
+X = np.matrix(adv[['constant', 'TV', 'Radio', 'Newspaper']])
+Y = np.matrix(adv['Sales']).T
+
+# Estimate coefficients with matrix algebra
+beta_hat = (X.T * X).I * X.T * Y
+beta_hat
+
+# Estimate coefficients with statsmodels
+est = sm.OLS(Y, X).fit()
+est.params
+
+# Estimate coefficients with scikit learn
+est = LinearRegression(fit_intercept=False).fit(X,Y)
+est.coef_
