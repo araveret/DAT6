@@ -105,3 +105,17 @@ Saturday | Topic | Project Milestone
 * UCLA's IDRE has a handy table to help you remember the [relationship between probability, odds, and log-odds](http://www.ats.ucla.edu/stat/mult_pkg/faq/general/odds_ratio.htm).
 * Better Explained has a very friendly introduction (with lots of examples) to the [intuition behind "e"](http://betterexplained.com/articles/an-intuitive-guide-to-exponential-functions-e/).
 * Here are some useful lecture notes on [interpreting logistic regression coefficients](http://www.unm.edu/~schrader/biostat/bio2/Spr06/lec11.pdf).
+
+------
+### Class 5: Linear Regression
+**Agenda:**
+* Project Status Updates
+* Linear Regression and Evaluation ([slides](slides/05_linear_regression.pdf), [code](code/05_linear_regression.py))
+
+**Homework:**
+* Your Homework for this week is to continue to develop your project. April 2nd is the deadline for project changes.
+
+**Resources:**
+* To go much more in-depth on linear regression, read Chapter 3 of  [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/). Alternatively, watch the [related videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) that covers the key points from that chapter.
+* The  [introduction to linaer regression](http://people.duke.edu/~rnau/regintro.htm) is much more mathmatical and thorough, and includes a lot of practical advice.
+* The aforementioned article has a particularly helpful section on the [assumptions of linear regression](http://people.duke.edu/~rnau/testing.htm).
