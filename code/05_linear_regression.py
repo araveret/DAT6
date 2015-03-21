@@ -66,7 +66,6 @@ Hint: Use the following convention plt.plot([x_min, x_max], [y_min, y_max])
 '''
 
 
-
 '''
 Model Evaluation
 '''
@@ -101,8 +100,8 @@ INTERACTION TERMS
 What: Interaction measure the combined effect of two variables acting together
 Why:  This is a way to make predictions and inferences when 
 two input variables are correlated with each other.
-Notes: Whenever you include an interaction terms, it is conventional to include 
-the main effects as well.
+Notes: Whenever you include an interaction terms, it is conventional to 
+include the main effects as well.
 '''
 
 train['Radio_TV'] = train['Radio'] * train['TV']
