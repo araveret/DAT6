@@ -6,7 +6,7 @@ Course materials for [General Assembly's Data Science course](https://generalass
 
 **Office hours:** 5-7pm on Tuesday and 5-7pm on Saturday at General Assembly
 
-**Machine Learning Overview:** See [here]() for an overview of the machine learning models!
+**Machine Learning Overview:** See [here](images/ML.jpg) for an overview of the machine learning models!
 
 **[Course Project information](project.md)**
 
