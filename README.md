@@ -14,7 +14,7 @@ Saturday | Topic | Project Milestone
 2/28:| [Git(hub) / Getting Data](#class-2-github-and-getting-data) | 
 3/7:| [Advanced Pandas / Machine Learning](#class-3-advanced-pandas-and-machine-learning) | [One Page Write-up with Data](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#march-7-one-page-write-up-with-data)
 π  == τ/2 day  | [Model Evaluation / Logistic Regression](#class-4-model-evaluation-and-logistic-regression) | 
-3/21: | Linear Regression | [2-3 Minute Presentation](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#march-21-2-3-minute-presentation) 
+3/21: | [Linear Regression](#class-5-linear-regression) | [2-3 Minute Presentation](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#march-21-2-3-minute-presentation) 
 3/28: | Data Problem / Clustering and Visualization | 
 4/2 | Naive Bayes / Natural Language Processing | [Deadline for Topic Changes](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#april-2-deadline-for-topic-changes)
 4/11 | Decision Trees / Ensembles | [First Draft Due (Peer Review)](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#april-11-first-draft-due-peer-review)
@@ -117,5 +117,5 @@ Saturday | Topic | Project Milestone
 
 **Resources:**
 * To go much more in-depth on linear regression, read Chapter 3 of  [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/). Alternatively, watch the [related videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) that covers the key points from that chapter.
-* The  [introduction to linaer regression](http://people.duke.edu/~rnau/regintro.htm) is much more mathmatical and thorough, and includes a lot of practical advice.
+* The  [introduction to linear regression](http://people.duke.edu/~rnau/regintro.htm) is much more mathmatical and thorough, and includes a lot of practical advice.
 * The aforementioned article has a particularly helpful section on the [assumptions of linear regression](http://people.duke.edu/~rnau/testing.htm).
