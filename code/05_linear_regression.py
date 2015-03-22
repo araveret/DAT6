@@ -64,7 +64,17 @@ EXERCISE:
 
 Hint: Use the following convention plt.plot([x_min, x_max], [y_min, y_max])
 '''
+# Calculate the ymin, ymax
+ymin = slm.intercept_ + slm.coef_ * train.Radio.min()
+ymax = slm.intercept_ + slm.coef_ * train.Radio.max()
 
+# Plotting
+plt.plot([train.Radio.min(), train.Radio.max()], [ymin, ymax])
+plt.scatter(train.Radio, train.Sales)
+
+# This is equivalent
+slm.predict(train.Radio.min())
+slm.predict(train.Radio.max())
 
 '''
 Model Evaluation
@@ -76,7 +86,7 @@ np.sqrt(mean_squared_error(test['Sales'],preds))
 
 # Evaluate the model fit based off of cross validation
 from sklearn.cross_validation import cross_val_score
-scores = cross_val_score(slm, adv['Radio'][:,np.newaxis], adv['Sales'], cv=10, scoring='mean_squared_error')
+scores = cross_val_score(slm, adv['Radio'][:,np.newaxis], adv['Sales'], cv=5, scoring='mean_squared_error')
 np.mean(np.sqrt(-scores))
 
 '''
@@ -87,8 +97,19 @@ EXERCISE:
 2) Calculate the 5-fold CV RMSE. Is it better or worse than before?
 '''
 
+# 1) 
+mlm = LinearRegression()
+mlm.fit(train[['Radio', 'TV']], train['Sales'])
+mlm.intercept_
+mlm.coef_
 
+for i in zip(['Radio', 'TV'], mlm.coef_):
+    print i[0], np.round(i[1], 4)
 
+# 2)
+preds = mlm.predict(test[['Radio', 'TV']])
+scores = cross_val_score(mlm, adv[['Radio', 'TV']], adv['Sales'], cv=5, scoring='mean_squared_error')
+np.mean(np.sqrt(-scores))
 
 '''
 Common Transformations
