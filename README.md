@@ -121,3 +121,31 @@ Saturday | Topic | Project Milestone
 * To go much more in-depth on linear regression, read Chapter 3 of  [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/). Alternatively, watch the [related videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) that covers the key points from that chapter.
 * The  [introduction to linear regression](http://people.duke.edu/~rnau/regintro.htm) is much more mathmatical and thorough, and includes a lot of practical advice.
 * The aforementioned article has a particularly helpful section on the [assumptions of linear regression](http://people.duke.edu/~rnau/testing.htm).
+
+### Class 6: Data Problem / Clustering and Visualization
+* Today we will work on a real world data problem! Our [data](data/ZYX_prices.csv) is stock data over 7 months of a fictional company ZYX including twitter sentiment, volume and stock price. Our goal is to create a predictive model that predicts forward returns.
+
+* Project overview ([documentation](slides/06_GA_Stocks.pdf))
+    * Be sure to read documentation thoroughly and ask questions! We may not have included all of the information you want...
+    * Remember, the goal is prediction. We are given labeled data and we must build a supervised model in order to predict forward stock return. When building your models, be sure to use examples from previous classes to build and evaluate them.
+    * Metrics are key! Be sure to know which metrics are relevant to the model you chose. For example RMSE only makes sense for regression and ROC/AUC only works for classification.
+
+**Homework:**
+
+* Read Paul Graham's [A Plan for Spam](http://www.paulgraham.com/spam.html) and be prepared to **discuss it in class next time**. Here are some questions to think about while you read:
+    * Should a spam filter optimize for sensitivity or specificity, in Paul's opinion?
+    * Before he tried the "statistical approach" to spam filtering, what was his approach?
+    * How exactly does his statistical filtering system work?
+    * What did Paul say were some of the benefits of the statistical approach?
+    * How good was his prediction of the "spam of the future"?
+* Below are the foundational topics upon which Monday's class will depend. Please review these materials before class:
+    * **Confusion matrix:** [guide](http://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/) roughly mirrors the lecture from class.
+    * **Sensitivity and specificity:** Rahul Patwari has an [excellent video](https://www.youtube.com/watch?v=U4_3fditnWg&list=PL41ckbAGB5S2PavLIXUETzAmi5reIod23) (9 minutes).
+    * **Basics of probability:** These [slides](https://docs.google.com/presentation/d/1cM2dVbJgTWMkHoVNmYlB9df6P2H8BrjaqAcZTaLe9dA/edit#slide=id.gfc3caad2_00) are very good. Pay specific attention to these terms: probability, mutually exclusive, independent. You may also find videos of Sinan teaching similar ideas in the class videos section of Slack.
+
+**Deadline for topic changes for your final project is next week!**
+
+**Resources:**
+
+* [Introduction to Data Mining](http://www-users.cs.umn.edu/~kumar/dmbook/index.php) has a great [chapter on cluster analysis](http://www-users.cs.umn.edu/~kumar/dmbook/ch8.pdf).
+* The scikit-learn user guide has a [section on clustering](http://scikit-learn.org/stable/modules/clustering.html).
