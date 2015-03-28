@@ -138,4 +138,3 @@ plt.plot(3,silhouette_score[1], 'o', markersize=12, markeredgewidth=1.5,
 #================================
 # Option 2: Within Sum of Squares (a.k.a., inertia)
 # Generally want to minimize WSS, while also minimizing k
-
