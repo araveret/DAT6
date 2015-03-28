@@ -121,3 +121,11 @@ Saturday | Topic | Project Milestone
 * To go much more in-depth on linear regression, read Chapter 3 of  [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/). Alternatively, watch the [related videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) that covers the key points from that chapter.
 * The  [introduction to linear regression](http://people.duke.edu/~rnau/regintro.htm) is much more mathmatical and thorough, and includes a lot of practical advice.
 * The aforementioned article has a particularly helpful section on the [assumptions of linear regression](http://people.duke.edu/~rnau/testing.htm).
+
+### Class 6: Data Problem / Clustering and Visualization
+* Today we will work on a real world data problem! Our [data](data/ZYX_prices.csv) is stock data over 7 months of a fictional company ZYX including twitter sentiment, volume and stock price. Our goal is to create a predictive model that predicts forward returns.
+
+* Project overview ([documentation](slides/06_GA_Stocks.pdf))
+    * Be sure to read documentation thoroughly and ask questions! We may not have included all of the information you want...
+    * Remember, the goal is prediction. We are given labeled data and we must build a supervised model in order to predict forward stock return. When building your models, be sure to use examples from previous classes to build and evaluate them.
+    * Metrics are key! Be sure to know which metrics are relevant to the model you chose. For example RMSE only makes sense for regression and ROC/AUC only works for classification.
