@@ -149,7 +149,7 @@ Saturday | Topic | Project Milestone
     * **Confusion matrix:** [guide](http://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/) roughly mirrors the lecture from class.
     * **Sensitivity and specificity:** Rahul Patwari has an [excellent video](https://www.youtube.com/watch?v=U4_3fditnWg&list=PL41ckbAGB5S2PavLIXUETzAmi5reIod23) (9 minutes).
     * **Basics of probability:** These [slides](https://docs.google.com/presentation/d/1cM2dVbJgTWMkHoVNmYlB9df6P2H8BrjaqAcZTaLe9dA/edit#slide=id.gfc3caad2_00) are very good. Pay specific attention to these terms: probability, mutually exclusive, independent. You may also find videos of Sinan teaching similar ideas in the class videos section of Slack.
-* Complete the [kmeans clustering exercise](homework/06_clustering_homework.py) on the UN dataset and submit a pull request to the GitHub repo.
+* Complete the [kmeans clustering exercise](homework/06_clustering_homework.py) on the [UN dataset](data/UNdata.csv) and submit a pull request to the GitHub repo.
     
 **Deadline for topic changes for your final project is next week!**
 
