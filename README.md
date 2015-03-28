@@ -127,10 +127,10 @@ Saturday | Topic | Project Milestone
 * Today we will also be covering our first unsupervised machine learning algorithm, clustering. Our scope will be to explore the kmeans algorithm ([slides](slides/06_clustering.pdf), [code](code/06_kmeans_clustering.py)). In particular we will address:
    * What are the applications of cluster analysis?
    * How does the kmeans algorithm work on a conceptual level?
-   * How can we create our own kmeans clustering routine 
+   * How we can create our own kmeans clustering routine in python. 
    * What are the different options for visualizing the output of Kmeans clustering?
    * How do we measure the quality of our cluster analysis and tune our modeling procedure? ([additional code](code/06_evaluating_cluster_validation.py))
-   * What are some of the strengths and weaknesses of cluster analysis using Kmeans?
+   * What are some of the limitations of  cluster analysis using Kmeans? ([additional code](code/06_kmeans_limitations.py))
 
 * Project overview ([documentation](slides/06_GA_Stocks.pdf))
     * Be sure to read documentation thoroughly and ask questions! We may not have included all of the information you want...
