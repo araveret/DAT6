@@ -17,7 +17,7 @@ Saturday | Topic | Project Milestone
 3/7:| [Advanced Pandas / Machine Learning](#class-3-advanced-pandas-and-machine-learning) | [One Page Write-up with Data](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#march-7-one-page-write-up-with-data)
 π  == τ/2 day  | [Model Evaluation / Logistic Regression](#class-4-model-evaluation-and-logistic-regression) | 
 3/21: | [Linear Regression](#class-5-linear-regression) | [2-3 Minute Presentation](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#march-21-2-3-minute-presentation) 
-3/28: | [Data Problem / Clustering and Visualization](Class-6-Data-Problem-and-Clustering-and-Visualization) | 
+3/28: | [Data Problem / Clustering and Visualization](#Class-6-Data-Problem-and-Clustering-and-Visualization) | 
 4/2 | Naive Bayes / Natural Language Processing | [Deadline for Topic Changes](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#april-2-deadline-for-topic-changes)
 4/11 | Decision Trees / Ensembles | [First Draft Due (Peer Review)](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#april-11-first-draft-due-peer-review)
 4/18 | PCA / Databases / MapReduce | 
