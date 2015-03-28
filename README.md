@@ -150,7 +150,16 @@ Saturday | Topic | Project Milestone
     * **Sensitivity and specificity:** Rahul Patwari has an [excellent video](https://www.youtube.com/watch?v=U4_3fditnWg&list=PL41ckbAGB5S2PavLIXUETzAmi5reIod23) (9 minutes).
     * **Basics of probability:** These [slides](https://docs.google.com/presentation/d/1cM2dVbJgTWMkHoVNmYlB9df6P2H8BrjaqAcZTaLe9dA/edit#slide=id.gfc3caad2_00) are very good. Pay specific attention to these terms: probability, mutually exclusive, independent. You may also find videos of Sinan teaching similar ideas in the class videos section of Slack.
 * Complete the [kmeans clustering exercise](homework/06_clustering_homework.py) on the [UN dataset](data/UNdata.csv) and submit a pull request to the GitHub repo.
-    
+* Download all of the NLTK collections.
+   * In Python, use the following commands to bring up the download menu.
+   * ```import nltk```
+   * ```nltk.download()```
+   * Choose "all".
+   * Alternatively, just type ```nltk.download('all')```
+* Install two new packages:  ```textblob``` and ```lda```.
+   * Open a terminal or command prompt.
+   * Type ```pip install textblob``` and ```pip install lda```.   
+ 
 **Deadline for topic changes for your final project is next week!**
 
 **Resources:**
