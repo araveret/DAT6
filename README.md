@@ -17,7 +17,7 @@ Saturday | Topic | Project Milestone
 3/7:| [Advanced Pandas / Machine Learning](#class-3-advanced-pandas-and-machine-learning) | [One Page Write-up with Data](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#march-7-one-page-write-up-with-data)
 π  == τ/2 day  | [Model Evaluation / Logistic Regression](#class-4-model-evaluation-and-logistic-regression) | 
 3/21: | [Linear Regression](#class-5-linear-regression) | [2-3 Minute Presentation](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#march-21-2-3-minute-presentation) 
-3/28: | Data Problem / Clustering and Visualization | 
+3/28: | [Data Problem / Clustering and Visualization](Class-6-Data-Problem-and-Clustering-and-Visualization) | 
 4/2 | Naive Bayes / Natural Language Processing | [Deadline for Topic Changes](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#april-2-deadline-for-topic-changes)
 4/11 | Decision Trees / Ensembles | [First Draft Due (Peer Review)](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#april-11-first-draft-due-peer-review)
 4/18 | PCA / Databases / MapReduce | 
@@ -122,8 +122,15 @@ Saturday | Topic | Project Milestone
 * The  [introduction to linear regression](http://people.duke.edu/~rnau/regintro.htm) is much more mathmatical and thorough, and includes a lot of practical advice.
 * The aforementioned article has a particularly helpful section on the [assumptions of linear regression](http://people.duke.edu/~rnau/testing.htm).
 
-### Class 6: Data Problem / Clustering and Visualization
+### Class 6: Data Problem and Clustering and Visualization
 * Today we will work on a real world data problem! Our [data](data/ZYX_prices.csv) is stock data over 7 months of a fictional company ZYX including twitter sentiment, volume and stock price. Our goal is to create a predictive model that predicts forward returns.
+* Today we will also be covering our first unsupervised machine learning algorithm, clustering. Our scope will be to explore the kmeans algorithm ([slides](slides/06_clustering.pdf), [code](code/06_kmeans_clustering.py)). In particular we will address:
+   * What are the applications of cluster analysis?
+   * How does the kmeans algorithm work on a conceptual level?
+   * How can we create our own kmeans clustering routine 
+   * What are the different options for visualizing the output of Kmeans clustering?
+   * How do we measure the quality of our cluster analysis and tune our modeling procedure? ([additional code](code/06_evaluating_cluster_validation.py))
+   * What are some of the strengths and weaknesses of cluster analysis using Kmeans?
 
 * Project overview ([documentation](slides/06_GA_Stocks.pdf))
     * Be sure to read documentation thoroughly and ask questions! We may not have included all of the information you want...
@@ -142,7 +149,8 @@ Saturday | Topic | Project Milestone
     * **Confusion matrix:** [guide](http://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/) roughly mirrors the lecture from class.
     * **Sensitivity and specificity:** Rahul Patwari has an [excellent video](https://www.youtube.com/watch?v=U4_3fditnWg&list=PL41ckbAGB5S2PavLIXUETzAmi5reIod23) (9 minutes).
     * **Basics of probability:** These [slides](https://docs.google.com/presentation/d/1cM2dVbJgTWMkHoVNmYlB9df6P2H8BrjaqAcZTaLe9dA/edit#slide=id.gfc3caad2_00) are very good. Pay specific attention to these terms: probability, mutually exclusive, independent. You may also find videos of Sinan teaching similar ideas in the class videos section of Slack.
-
+    * Complete the [kmeans clustering exercise](code/06_clustering_homework.py) on the UN dataset and submit a pull request to the GitHub repo.
+    
 **Deadline for topic changes for your final project is next week!**
 
 **Resources:**
