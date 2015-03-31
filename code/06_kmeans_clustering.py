@@ -17,6 +17,8 @@ import numpy as np
 #           [2, 5], [4, 4], [3, 3]
 # ------------------------------------------
 
+d = np.array([[2, 5], [4, 4], [3, 3]])
+x, y = d.mean(axis=0)
 
 # Import iris data
 iris = datasets.load_iris()
@@ -41,6 +43,9 @@ plt.ylabel(iris.feature_names[0])
 #           on the same graph.
 # ------------------------------------------
 
+centers = est.cluster_centers_
+plt.scatter(centers[:, 2], centers[:, 0], c='k', linewidths=3,
+            marker='+', s=300)
 
 '''
 VISUALIZING THE CLUSTERS
@@ -55,8 +60,8 @@ multi-dimensional data? Let's look at three ways you can do this.
 # Option #1: Scatter Plot Grid
 plt.figure(figsize=(8, 8))
 plt.suptitle('Scatter Plot Grid',  fontsize=14)
-# Upper Left
-plt.subplot(221)
+# Upper Left 
+plt.subplot(221) # Row, Column, Number
 plt.scatter(d[:,2], d[:,0], c = colors[y_kmeans])
 plt.ylabel(iris.feature_names[0])
 
@@ -81,7 +86,7 @@ from mpl_toolkits.mplot3d import Axes3D
 plt.suptitle('3d plot', fontsize=15)
 ax = Axes3D(plt.figure(figsize=(10, 9)), rect=[.01, 0, 0.95, 1], elev=30, azim=134)
 ax.scatter(d[:,0], d[:,1], d[:,2], c = colors[y_kmeans], s=120)
-ax.set_xlabel('Sepal Width')
+ax.set_xlabel('Sepal Length')
 ax.set_ylabel('Sepal Width')
 ax.set_zlabel('Petal Length')
 # Modified from the example here: 
@@ -92,10 +97,27 @@ ax.set_zlabel('Petal Length')
 #           visualization with the classes
 # ---------------------------------------
 
+plt.figure()
+plt.suptitle('Parallel Coordinates',  fontsize=14)
+from pandas.tools.plotting import parallel_coordinates
+# I'm going to convert to a pandas dataframe
+features = [name[:-5].title().replace(' ', '') for name in iris.feature_names]
+iris_df = pd.DataFrame(iris.data, columns = features)
+iris_df['cluster'] = y_kmeans
+parallel_coordinates(data=iris_df, class_column='cluster', 
+                     colors=('#FF0054', '#FBD039', '#23C2BC'))
 
-#================================
+# ================================
 # Option 3: Parallel Coordinates
-
+plt.figure()
+plt.suptitle('Parallel Coordinates',  fontsize=14)
+from pandas.tools.plotting import parallel_coordinates
+# I'm going to convert to a pandas dataframe
+features = [name[:-5].replace(' ', '_') for name in iris.feature_names]
+iris_df = pd.DataFrame(iris.data, columns = features)
+iris_df['cluster'] = y_kmeans
+parallel_coordinates(data=iris_df, class_column='cluster', 
+                     colors=('#FF0054', '#FBD039', '#23C2BC'))
 
 '''
 DETERMINING THE NUMBER OF CLUSTERS
@@ -138,3 +160,15 @@ plt.plot(3,silhouette_score[1], 'o', markersize=12, markeredgewidth=1.5,
 #================================
 # Option 2: Within Sum of Squares (a.k.a., inertia)
 # Generally want to minimize WSS, while also minimizing k
+
+within_sum_squares = [e.inertia_ for e in est]
+
+# Plot the results
+plt.subplot(212)
+plt.plot(k_rng, within_sum_squares, 'b*-')
+plt.xlim([2,15])
+plt.grid(True)
+plt.xlabel('k')
+plt.ylabel('Within Sum of Squares')
+plt.plot(3,within_sum_squares[1], 'ro', markersize=12, markeredgewidth=1.5,
+         markerfacecolor='None', markeredgecolor='r')
