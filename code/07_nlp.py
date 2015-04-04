@@ -195,7 +195,7 @@ sample = ['Bob likes sports', 'Bob hates sports', 'Bob likes likes trees']
 
 from sklearn.feature_extraction.text import CountVectorizer
 vect = CountVectorizer()
-vect.fit_transform(sentences).toarray()
+vect.fit_transform(sample).toarray()
 vect.get_feature_names()
 
 from sklearn.feature_extraction.text import TfidfVectorizer
