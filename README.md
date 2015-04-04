@@ -12,7 +12,7 @@ Course materials for [General Assembly's Data Science course](https://generalass
 
 Saturday | Topic | Project Milestone
 --- | --- | ---
-2/21:  | [Introduction / Pandas](#class-1-introduction-/-pandas)
+2/21:  | [Introduction / Pandas](#class-1-introduction-and-pandas)
 2/28:| [Git(hub) / Getting Data](#class-2-github-and-getting-data) | 
 3/7:| [Advanced Pandas / Machine Learning](#class-3-advanced-pandas-and-machine-learning) | [One Page Write-up with Data](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#march-7-one-page-write-up-with-data)
 π  == τ/2 day  | [Model Evaluation / Logistic Regression](#class-4-model-evaluation-and-logistic-regression) | 
@@ -31,7 +31,7 @@ Saturday | Topic | Project Milestone
 * Once you receive an email invitation from [Slack](https://slack.com/), join our "DAT6 team" and add your photo!
 
 ------
-### Class 1: Introduction / Pandas
+### Class 1: Introduction and Pandas
 **Agenda:**
 * Introduction to General Assembly
 * Course overview: our philosophy and expectations ([slides](slides/01_course_overview.pdf))
