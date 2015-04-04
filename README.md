@@ -18,7 +18,7 @@ Saturday | Topic | Project Milestone
 π  == τ/2 day  | [Model Evaluation / Logistic Regression](#class-4-model-evaluation-and-logistic-regression) | 
 3/21: | [Linear Regression](#class-5-linear-regression) | [2-3 Minute Presentation](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#march-21-2-3-minute-presentation) 
 3/28: | [Data Problem / Clustering and Visualization](#class-6-data-problem-and-clustering-and-visualization) | 
-4/2 | Naive Bayes / Natural Language Processing | [Deadline for Topic Changes](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#april-2-deadline-for-topic-changes)
+4/2 | [Naive Bayes / Natural Language Processing](#class-7-part-1-natural-language-processing) | [Deadline for Topic Changes](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#april-2-deadline-for-topic-changes)
 4/11 | Decision Trees / Ensembles | [First Draft Due (Peer Review)](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#april-11-first-draft-due-peer-review)
 4/18 | PCA / Databases / MapReduce | 
 4/25 | Recommendation Engines | 
@@ -122,6 +122,7 @@ Saturday | Topic | Project Milestone
 * The  [introduction to linear regression](http://people.duke.edu/~rnau/regintro.htm) is much more mathmatical and thorough, and includes a lot of practical advice.
 * The aforementioned article has a particularly helpful section on the [assumptions of linear regression](http://people.duke.edu/~rnau/testing.htm).
 
+------
 ### Class 6: Data Problem and Clustering and Visualization
 * Today we will work on a real world data problem! Our [data](data/ZYX_prices.csv) is stock data over 7 months of a fictional company ZYX including twitter sentiment, volume and stock price. Our goal is to create a predictive model that predicts forward returns.
 * Today we will also be covering our first unsupervised machine learning algorithm, clustering. Our scope will be to explore the kmeans algorithm ([slides](slides/06_clustering.pdf), [code](code/06_kmeans_clustering.py)). In particular we will address:
@@ -149,7 +150,7 @@ Saturday | Topic | Project Milestone
     * **Confusion matrix:** [guide](http://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/) roughly mirrors the lecture from class.
     * **Sensitivity and specificity:** Rahul Patwari has an [excellent video](https://www.youtube.com/watch?v=U4_3fditnWg&list=PL41ckbAGB5S2PavLIXUETzAmi5reIod23) (9 minutes).
     * **Basics of probability:** These [slides](https://docs.google.com/presentation/d/1cM2dVbJgTWMkHoVNmYlB9df6P2H8BrjaqAcZTaLe9dA/edit#slide=id.gfc3caad2_00) are very good. Pay specific attention to these terms: probability, mutually exclusive, independent. You may also find videos of Sinan teaching similar ideas in the class videos section of Slack.
-* Complete the [kmeans clustering exercise](homework/06_clustering_homework.py) on the [UN dataset](data/UNdata.csv) and submit a pull request to the GitHub repo.
+* Complete the kmeans clustering exercise on the [UN dataset](data/UNdata.csv) and submit a pull request to the GitHub repo. ([homework](homework/06_clustering_homework.py), [solutions](homework/06_clustering_solutions.py))
 * Conduct kmeans clustering on your own dataset and submit a pull request to the GitHub repository
 * Download all of the NLTK collections.
    * In Python, use the following commands to bring up the download menu.
@@ -168,7 +169,8 @@ Saturday | Topic | Project Milestone
 * [Introduction to Data Mining](http://www-users.cs.umn.edu/~kumar/dmbook/index.php) has a great [chapter on cluster analysis](http://www-users.cs.umn.edu/~kumar/dmbook/ch8.pdf).
 * The scikit-learn user guide has a [section on clustering](http://scikit-learn.org/stable/modules/clustering.html).
 
-### Class 07 Part 1: Natural Language Processing
+------
+### Class 7 Part 1: Natural Language Processing
 * Overview of Natural Language Processing ([slides](slides/07_natural_language_processing.pdf))
 * Real World Examples
 * Natural Language Processing ([code](code/07_nlp.py))
@@ -187,7 +189,7 @@ Saturday | Topic | Project Milestone
 * Getting started with regex: [Python introductory lesson](https://developers.google.com/edu/python/regular-expressions) and [reference guide](https://github.com/justmarkham/DAT3/blob/master/code/99_regex_reference.py), [real-time regex tester](https://regex101.com/#python), [in-depth tutorials](http://www.rexegg.com/)
 * [SpaCy](http://honnibal.github.io/spaCy/): a new NLP package
 
-### Class 07 Part 2: Naive Bayes
+### Class 7 Part 2: Naive Bayes
 * Briefly discuss [A Plan for Spam](http://www.paulgraham.com/spam.html)
 * Probability and Bayes' theorem
     * [Slides](slides/07_naive_bayes.pdf) part 1
@@ -206,3 +208,5 @@ Saturday | Topic | Project Milestone
 * For an alternative introduction to Bayes' Theorem, [Bayes' Rule for Ducks](https://planspacedotorg.wordpress.com/2014/02/23/bayes-rule-for-ducks/), this [5-minute video on conditional probability](https://www.youtube.com/watch?v=Zxm4Xxvzohk), or these [slides on conditional probability](https://docs.google.com/presentation/d/1psUIyig6OxHQngGEHr3TMkCvhdLInnKnclQoNUr4G4U/edit#slide=id.gfc69f484_00) may be helpful.
 * For more details on Naive Bayes classification, Wikipedia has two useful articles ([Naive Bayes classifier](http://en.wikipedia.org/wiki/Naive_Bayes_classifier) and [Naive Bayes spam filtering](http://en.wikipedia.org/wiki/Naive_Bayes_spam_filtering)), and Cross Validated has an excellent [Q&A](http://stats.stackexchange.com/questions/21822/understanding-naive-bayes).
 * If you enjoyed Paul Graham's article, you can read [his follow-up article](http://www.paulgraham.com/better.html) on how he improved his spam filter and this [related paper](http://www.merl.com/publications/docs/TR2004-091.pdf) about state-of-the-art spam filtering in 2004.
+
+------
