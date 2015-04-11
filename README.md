@@ -224,6 +224,7 @@ Saturday | Topic | Project Milestone
 * **Optional:** You should try to create your own Titanic Kaggle submission by building on the techniques we covered in class. Here are some [ideas](homework/08_trees_homework.md).
 
 **Resources**
+
 *For Classification and Decision Trees*
 
 * For those of you interested in learning R, I created a script that implements a [Classification Tree in R](code/08_classification_regression_trees.R)
