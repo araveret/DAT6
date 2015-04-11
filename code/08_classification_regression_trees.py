@@ -92,7 +92,7 @@ train = pd.DataFrame(data=train, columns=d.columns)
 test = pd.DataFrame(data=test, columns=d.columns)
 
 # Create a decision tree classifier instance (start out with a small tree for interpretability)
-ctree = tree.DecisionTreeClassifier(random_state=1)
+ctree = tree.DecisionTreeClassifier(random_state=1, max_depth=2)
 
 # Fit the decision tree classider
 ctree.fit(train.drop('Survived', axis=1), train['Survived'])
