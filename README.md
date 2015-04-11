@@ -210,7 +210,7 @@ Saturday | Topic | Project Milestone
 * If you enjoyed Paul Graham's article, you can read [his follow-up article](http://www.paulgraham.com/better.html) on how he improved his spam filter and this [related paper](http://www.merl.com/publications/docs/TR2004-091.pdf) about state-of-the-art spam filtering in 2004.
 
 ------
-### Class 8 Trees and Ensembles
+### Class 8: Trees and Ensembles
 * Briefly review ROC curves and Confusion Matrix Terminology
 * Classification and Regression Trees ([code](code/08_classification_regression_trees.py), [slides](slides/08_classification_regression_trees.pdf))
 	* CART
