@@ -240,7 +240,6 @@ Saturday | Topic | Project Milestone
 * Leo Brieman's [paper](https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf) on Random Forests
 * yhat has a brief [primer](http://blog.yhathq.com/posts/random-forests-in-python.html) on Random Forests that can provide a review of many of the topics we covered today. 
 * Here is a link to some Kaggle competitions that were won using [Random Forests](https://www.kaggle.com/wiki/RandomForests)
-* Ensemble models... tend to strongly outperform their component models on new data. Doesn't this violate “Occam’s razor”? In this paper entitled: [The Generalization Paradox of Ensembles](http://datamininglab.com/media/pdfs/Paradox_JCGS.pdf) John Elder IV argues for a more refined understanding of model complexity. 
 * Chapter 10 of the [Elements of Statistical Learning ](http://statweb.stanford.edu/~tibs/ElemStatLearn/) covers Boosting. See page 339 for the algorithm presented in class.
 * Dr. Justin Esary has a nice [tutorial](https://www.youtube.com/watch?v=jAVHB3D04EY) on Boosting. Watch from 32:00 – 59:00 for relevant material. 
 * Tutorial by Professor Rob Schapire of Princeston on the [AdaBoost Algorithm](http://www.cs.princeton.edu/~schapire/talks/nips-tutorial.pdf)
