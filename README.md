@@ -212,7 +212,7 @@ Saturday | Topic | Project Milestone
 ------
 ### Class 8 Trees and Ensembles
 * Briefly review ROC curves and Confusion Matrix Terminology
-* Decision Trees ([code](08_classification_regression_trees.py), [slides](slides/08_classification_regression_trees.pdf))
+* Decision Trees ([code](code/08_classification_regression_trees.py), [slides](slides/08_classification_regression_trees.pdf))
 * Ensemble Techniques ([notebook](notebooks/08_ensemble_techniques.ipynb))
 
 **Homework**
