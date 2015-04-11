@@ -227,7 +227,7 @@ Saturday | Topic | Project Milestone
 
 *R*
 
-* To show you what it looks like, I created a script that implements a [Classification Tree in R](code/08_classification_regression_trees.R)
+* I created a script that implements a [Classification Tree in R](code/08_classification_regression_trees.R)
 * Here are some resources for helping you to learn R
 	* [Intro to R](https://www.youtube.com/playlist?list=PLOU2XLYxmsIK9qQfztXeybpHvru-TrqAP) put on by Google Developers (21 videos, 2-3 minutes each).
 	* [Computing for Data Analysis](https://www.youtube.com/playlist?list=PL7Tw2kQ2edvpNEGrU0cGKwmdDRKc5A6C4) created through Coursera (27 videos, 5-30 minutes each).
@@ -255,4 +255,4 @@ Saturday | Topic | Project Milestone
 * Dr. Justin Esary has a nice [tutorial](https://www.youtube.com/watch?v=jAVHB3D04EY) on Boosting. Watch from 32:00 – 59:00 for relevant material. 
 * Tutorial by Professor Rob Schapire of Princeston on the [AdaBoost Algorithm](http://www.cs.princeton.edu/~schapire/talks/nips-tutorial.pdf)
 * IPython documentation in [website form](http://ipython.org/ipython-doc/stable/index.html) and [notebook form](http://nbviewer.ipython.org/github/ipython/ipython/blob/2.x/examples/Index.ipynb): does not focus exclusively on the IPython Notebook
-* IPython notebook [shortcuts](http://ipython.org/ipython-doc/1/interactive/notebook.html#keyboard-shortcuts)
+* IPython notebook [keyboard shortcuts](http://ipython.org/ipython-doc/1/interactive/notebook.html#keyboard-shortcuts)
