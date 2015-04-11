@@ -255,3 +255,4 @@ Saturday | Topic | Project Milestone
 * Dr. Justin Esary has a nice [tutorial](https://www.youtube.com/watch?v=jAVHB3D04EY) on Boosting. Watch from 32:00 – 59:00 for relevant material. 
 * Tutorial by Professor Rob Schapire of Princeston on the [AdaBoost Algorithm](http://www.cs.princeton.edu/~schapire/talks/nips-tutorial.pdf)
 * IPython documentation in [website form](http://ipython.org/ipython-doc/stable/index.html) and [notebook form](http://nbviewer.ipython.org/github/ipython/ipython/blob/2.x/examples/Index.ipynb): does not focus exclusively on the IPython Notebook
+* IPython notebook [shortcuts](http://ipython.org/ipython-doc/1/interactive/notebook.html#keyboard-shortcuts)
