@@ -220,10 +220,11 @@ Saturday | Topic | Project Milestone
 	* Boosted Trees
 
 **Homework**
-* Mandatory: You will be assigned to review the project drafts of two of your peers. See guidelines for [feedback](peer_review.md).
-* Optional: You should try to create your own Titanic Kaggle submission by building on the techniques we covered in class. Here are some [ideas](homework/08_trees_homework.md) for how to build upon what we created today.
+* **Mandatory:** You will be assigned to review the project drafts of two of your peers. See guidelines for [feedback](peer_review.md).
+* **Optional:** You should try to create your own Titanic Kaggle submission by building on the techniques we covered in class. Here are some [ideas](homework/08_trees_homework.md).
 
-**Resources for Classification and Decision Trees:**
+**Resources**
+*For Classification and Decision Trees*
 
 * For those of you interested in learning R, I created a script that implements a [Classification Tree in R](code/08_classification_regression_trees.R)
 * To learn more about R, contact one of us during office hours! 
@@ -234,8 +235,7 @@ Saturday | Topic | Project Milestone
    * If this is something you are interested in, Gary Sieling wrote a nice [function](http://www.garysieling.com/blog/rending-scikit-decision-trees-d3-js) in python to take the output of a scikit-learn tree and convert into json format
    * If you are intersted in learning d3.js, this a good [tutorial](http://www.d3noob.org/2014/01/tree-diagrams-in-d3js_11.html) for understanding the building blocks of a decision tree. Here is another [tutorial](http://blog.pixelingene.com/2011/07/building-a-tree-diagram-in-d3-js/) focusing on building a tree diagram in d3.js.
 
-
-**Resources for Ensemble Methods:**
+*For Ensemble Methods*
 * Leo Brieman's [paper](https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf) on Random Forests
 * yhat has a brief [primer](http://blog.yhathq.com/posts/random-forests-in-python.html) on Random Forests that can provide a review of many of the topics we covered today. 
 * Here is a link to some Kaggle competitions that were won using [Random Forests](https://www.kaggle.com/wiki/RandomForests)
