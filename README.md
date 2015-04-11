@@ -212,9 +212,9 @@ Saturday | Topic | Project Milestone
 ------
 ### Class 8 Trees and Ensembles
 * Briefly review ROC curves and Confusion Matrix Terminology
-* Decision Trees ([code](08_classification_regression_trees.py)[slides](slides/08_classification_regression_trees.pdf))
-* Ensemble Techniques ([notebook](notebooks/08_ensemble_methods.ipynb))
+* Decision Trees ([code](08_classification_regression_trees.py), [slides](slides/08_classification_regression_trees.pdf))
+* Ensemble Techniques ([notebook](notebooks/08_ensemble_techniques.ipynb))
 
-** Homework **
+**Homework**
 * Mandatory: You will be assigned to review the project drafts of two of your peers. See guidelines for [feedback](peer_review.md).
 * Optional: You should try to create your own Titanic Kaggle submission by building on the techniques we covered in class. Here are some [ideas](homework/08_trees_homework.md) for how to build upon what we created today.
