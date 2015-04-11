@@ -233,15 +233,15 @@ Saturday | Topic | Project Milestone
 	* [Computing for Data Analysis](https://www.youtube.com/playlist?list=PL7Tw2kQ2edvpNEGrU0cGKwmdDRKc5A6C4) created through Coursera (27 videos, 5-30 minutes each).
 	* [Cheat sheets](http://www.rstudio.com/resources/cheatsheets/) created by RStudio can be a helpful reference.
 	* Kevin Markham has a helpful video on [Data Manipulation in R](https://www.youtube.com/watch?v=jWjqLW-u3hc)
-	* [R in a Nutshell](http://it-ebooks.info/book/1014/) created by O'Reilly.
+	* [R in a Nutshell](http://it-ebooks.info/book/1014/) is a free e-book created by O'Reilly.
 	* The book [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) contains R code examples for the techniques we use in this class.
 * To learn more about R, contact one of us during office hours! 
 
 
 *Classification and Regression Trees*
 
-* Dr. Justin Esarey from Rice University has a nice [video lecture](https://www.youtube.com/watch?v=HW7Aib842Oo&hd=1) on CART that also includes a [code walkthrough](http://jee3.web.rice.edu/cart-and-random-forests.r)
-* Chapter 8.1 of the Introduction to Statistical Learning also covers the basics of Classification and Regression Trees
+* Dr. Justin Esarey from Rice University has a nice [video lecture](https://www.youtube.com/watch?v=HW7Aib842Oo&hd=1) on CART that also includes an [R code walkthrough](http://jee3.web.rice.edu/cart-and-random-forests.r)
+* Chapter 8.1 of An Introduction to Statistical Learning also covers the basics of Classification and Regression Trees
 * For those of you with background in javascript, d3.js has a nice tree layout that would make more presentable tree diagrams 
    * Here is a link to a [static version](http://bl.ocks.org/mbostock/4339184), as well as a link to a [dynamic version](http://bl.ocks.org/mbostock/4339083) with collapsable nodes
    * If this is something you are interested in, Gary Sieling wrote a nice [function](http://www.garysieling.com/blog/rending-scikit-decision-trees-d3-js) in python to take the output of a scikit-learn tree and convert into json format
