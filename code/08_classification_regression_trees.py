@@ -202,13 +202,3 @@ best = grid.best_estimator_
 # Plot the best estimator
 with open("titanic_best.dot", 'w') as f:
     f = tree.export_graphviz(best, out_file=f, feature_names=features, close=True)
-
-'''
-CHALLENGE EXERCISE: Improve on this model and create a kaggle submission
-- Try to come up with a more sophisticated method for filling in missing age values
-- Tune across a different tuning parameter besides the one presented in class
-- Try to tune across two tuning parameters at the same time
-- See if you can split apart Parents and Children variable into two variables
-- Look up the formula for entropy. Change the splitting criterion to entropy. Does this change the results?
-
-''' 
