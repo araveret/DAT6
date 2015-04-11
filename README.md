@@ -19,7 +19,7 @@ Saturday | Topic | Project Milestone
 3/21: | [Linear Regression](#class-5-linear-regression) | [2-3 Minute Presentation](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#march-21-2-3-minute-presentation) 
 3/28: | [Data Problem / Clustering and Visualization](#class-6-data-problem-and-clustering-and-visualization) | 
 4/2 | [Naive Bayes / Natural Language Processing](#class-7-part-1-natural-language-processing) | [Deadline for Topic Changes](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#april-2-deadline-for-topic-changes)
-4/11 | Decision Trees / Ensembles | [First Draft Due (Peer Review)](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#april-11-first-draft-due-peer-review)
+4/11 | [Trees / Ensembles](#class-8-trees-and-ensembles) | [First Draft Due (Peer Review)](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#april-11-first-draft-due-peer-review)
 4/18 | PCA / Databases / MapReduce | 
 4/25 | Recommendation Engines | 
 5/2 | Project Presentations | [Presentation](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#may-2-presentation)
@@ -210,3 +210,11 @@ Saturday | Topic | Project Milestone
 * If you enjoyed Paul Graham's article, you can read [his follow-up article](http://www.paulgraham.com/better.html) on how he improved his spam filter and this [related paper](http://www.merl.com/publications/docs/TR2004-091.pdf) about state-of-the-art spam filtering in 2004.
 
 ------
+### Class 8 Trees and Ensembles
+* Briefly review ROC curves and Confusion Matrix Terminology
+* Decision Trees ([code](08_classification_regression_trees.py)[slides](slides/08_classification_regression_trees.pdf))
+* Ensemble Techniques ([notebook](notebooks/08_ensemble_methods.ipynb))
+
+** Homework **
+* Mandatory: You will be assigned to review the project drafts of two of your peers. See guidelines for [feedback](peer_review.md).
+* Optional: You should try to create your own Titanic Kaggle submission by building on the techniques we covered in class. Here are some [ideas](homework/08_trees_homework.md) for how to build upon what we created today.

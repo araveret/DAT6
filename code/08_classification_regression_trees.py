@@ -92,17 +92,17 @@ train = pd.DataFrame(data=train, columns=d.columns)
 test = pd.DataFrame(data=test, columns=d.columns)
 
 # Create a decision tree classifier instance (start out with a small tree for interpretability)
-clf = tree.DecisionTreeClassifier(random_state=1)
+ctree = tree.DecisionTreeClassifier(random_state=1)
 
 # Fit the decision tree classider
-clf.fit(train.drop('Survived', axis=1), train['Survived'])
+ctree.fit(train.drop('Survived', axis=1), train['Survived'])
 
 # Create a feature vector
 features = d.columns.tolist()[1:]
 
 # Create a dot file
 with open("titanic.dot", 'w') as f:
-    f = tree.export_graphviz(clf, out_file=f, feature_names=features, close=True)
+    f = tree.export_graphviz(ctree, out_file=f, feature_names=features, close=True)
 
 '''
 INSTRUCTIONS FOR USING GRAPHVIZ TO VISUALIZE THE TREE DIAGRAM
@@ -127,25 +127,25 @@ INSTRUCTIONS FOR USING GRAPHVIZ TO VISUALIZE THE TREE DIAGRAM
 '''
 
 # How to interpret the diagram?
-clf.classes_
+ctree.classes_
 
 # Predict what will happen for 1st class woman
 features
-clf.predict_proba([1, 1, 25, 0, 0, 0])
-clf.predict([1, 1, 25, 0, 0, 0])
+ctree.predict_proba([1, 1, 25, 0, 0, 0])
+ctree.predict([1, 1, 25, 0, 0, 0])
 
 # Predict what will happen for a 3rd class man
-clf.predict_proba([3, 0, 25, 0, 0, 0])
+ctree.predict_proba([3, 0, 25, 0, 0, 0])
 
 # Which features are the most important?
 # See "..other/calculating_cart_importance_measures.xlsx" for a detailed example
-clf.feature_importances_
+ctree.feature_importances_
 
 # Clean up the output
-pd.DataFrame(zip(features, clf.feature_importances_)).sort_index(by=1, ascending=False)
+pd.DataFrame(zip(features, ctree.feature_importances_)).sort_index(by=1, ascending=False)
 
 # Make predictions on the test set
-preds = clf.predict(test.drop('Survived', axis=1))
+preds = ctree.predict(test.drop('Survived', axis=1))
 
 # Calculate accuracy
 metrics.accuracy_score(test['Survived'], preds)
@@ -154,7 +154,7 @@ metrics.accuracy_score(test['Survived'], preds)
 pd.crosstab(test['Survived'], preds, rownames=['actual'], colnames=['predicted'])
 
 # Make predictions on the test set using predict_proba
-probs = clf.predict_proba(test.drop('Survived', axis=1))[:,1]
+probs = ctree.predict_proba(test.drop('Survived', axis=1))[:,1]
 
 # Calculate the AUC metric
 metrics.roc_auc_score(test['Survived'], probs)
@@ -171,18 +171,18 @@ y = d['Survived'].values
 X = d[['Pclass', 'Sex', 'Age', 'SibSp', 'Parch', 'Spouse']].values
 
 # check CV score for max depth = 3
-clf = tree.DecisionTreeClassifier(max_depth=3)
-np.mean(cross_val_score(clf, X, y, cv=5, scoring='roc_auc'))
+ctree = tree.DecisionTreeClassifier(max_depth=3)
+np.mean(cross_val_score(ctree, X, y, cv=5, scoring='roc_auc'))
 
 # check CV score for max depth = 10
-clf = tree.DecisionTreeClassifier(max_depth=10)
-np.mean(cross_val_score(clf, X, y, cv=5, scoring='roc_auc'))
+ctree = tree.DecisionTreeClassifier(max_depth=10)
+np.mean(cross_val_score(ctree, X, y, cv=5, scoring='roc_auc'))
 
 # Conduct a grid search for the best tree depth
-clf = tree.DecisionTreeClassifier(random_state=1, min_samples_leaf=20)
+ctree = tree.DecisionTreeClassifier(random_state=1, min_samples_leaf=20)
 depth_range = range(1, 20)
 param_grid = dict(max_depth=depth_range)
-grid = GridSearchCV(clf, param_grid, cv=5, scoring='roc_auc')
+grid = GridSearchCV(ctree, param_grid, cv=5, scoring='roc_auc')
 grid.fit(X, y)
 
 # Check out the scores of the grid search
@@ -204,12 +204,10 @@ with open("titanic_best.dot", 'w') as f:
     f = tree.export_graphviz(best, out_file=f, feature_names=features, close=True)
 
 '''
-
 CHALLENGE EXERCISE: Improve on this model and create a kaggle submission
 - Try to come up with a more sophisticated method for filling in missing age values
 - Tune across a different tuning parameter besides the one presented in class
 - Try to tune across two tuning parameters at the same time
-- Time the fitting speed for splitter = 'best' and splitter = 'random' (hint: use datetime package for timing)
 - See if you can split apart Parents and Children variable into two variables
 - Look up the formula for entropy. Change the splitting criterion to entropy. Does this change the results?
 
