@@ -225,10 +225,21 @@ Saturday | Topic | Project Milestone
 
 **Resources**
 
+*R*
+
+* To show you what it looks like, I created a script that implements a [Classification Tree in R](code/08_classification_regression_trees.R)
+* Here are some resources for helping you to learn R
+	* [Intro to R](https://www.youtube.com/playlist?list=PLOU2XLYxmsIK9qQfztXeybpHvru-TrqAP) put on by Google Developers (21 videos, 2-3 minutes each).
+	* [Computing for Data Analysis](https://www.youtube.com/playlist?list=PL7Tw2kQ2edvpNEGrU0cGKwmdDRKc5A6C4) created through Coursera (27 videos, 5-30 minutes each).
+	* [Cheat sheets](http://www.rstudio.com/resources/cheatsheets/) created by RStudio can be a helpful reference.
+	* Kevin Markham has a helpful video on [Data Manipulation in R](https://www.youtube.com/watch?v=jWjqLW-u3hc)
+	* [R in a Nutshell](http://it-ebooks.info/book/1014/) created by O'Reilly.
+	* The book [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) contains R code examples for the techniques we use in this class.
+* To learn more about R, contact one of us during office hours! 
+
+
 *Classification and Regression Trees*
 
-* For those of you interested in learning R, I created a script that implements a [Classification Tree in R](code/08_classification_regression_trees.R)
-* To learn more about R, contact one of us during office hours! 
 * Dr. Justin Esarey from Rice University has a nice [video lecture](https://www.youtube.com/watch?v=HW7Aib842Oo&hd=1) on CART that also includes a [code walkthrough](http://jee3.web.rice.edu/cart-and-random-forests.r)
 * Chapter 8.1 of the Introduction to Statistical Learning also covers the basics of Classification and Regression Trees
 * For those of you with background in javascript, d3.js has a nice tree layout that would make more presentable tree diagrams 
