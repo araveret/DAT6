@@ -227,7 +227,6 @@ Saturday | Topic | Project Milestone
 **Resources**
 
 *Classification and Regression Trees*
-
 * Chapter 8.1 of An Introduction to Statistical Learning also covers the basics of Classification and Regression Trees
 * The scikit-learn [documentation](http://scikit-learn.org/stable/modules/tree.html) has a nice summary of the strengths and weaknesses of Trees.
 * For those of you with background in javascript, d3.js has a nice tree layout that would make more presentable tree diagrams:
@@ -243,8 +242,11 @@ Saturday | Topic | Project Milestone
 * Chapter 10 of the [Elements of Statistical Learning ](http://statweb.stanford.edu/~tibs/ElemStatLearn/) covers Boosting. See page 339 for the algorithm presented in class.
 * Dr. Justin Esary has a nice [tutorial](https://www.youtube.com/watch?v=jAVHB3D04EY) on Boosting. Watch from 32:00 – 59:00 for relevant material. 
 * Tutorial by Professor Rob Schapire of Princeston on the [AdaBoost Algorithm](http://www.cs.princeton.edu/~schapire/talks/nips-tutorial.pdf)
+
+*IPython Notebook*
 * IPython documentation in [website form](http://ipython.org/ipython-doc/stable/index.html) and [notebook form](http://nbviewer.ipython.org/github/ipython/ipython/blob/2.x/examples/Index.ipynb): does not focus exclusively on the IPython Notebook
 * IPython notebook [keyboard shortcuts](http://ipython.org/ipython-doc/1/interactive/notebook.html#keyboard-shortcuts)
+* [IPython notebook viewer](http://nbviewer.ipython.org/)
 
 
 *R*
