@@ -3,7 +3,6 @@ Data Analysis in Python
 
     ----UFO data----
     Scraped from: http://www.nuforc.org/webreports.html
-    Article Analyzing the Dataset: http://josiahjdavis.com/    
 '''
 
 '''
@@ -27,6 +26,7 @@ import pandas as pd  # This line imports  (already installed) python package
 #        3) Select "Set console working directory"
 
 ufo = pd.read_csv('../data/ufo.csv')   # .. goes up one level in the working directory
+ufo = pd.read_csv('https://raw.githubusercontent.com/sinanuozdemir/Betamore_Python_Data_Science/master/data/ufo.csv')   # can also read csvs directly from the web!
 
 ufo                 
 ufo.head(15)          # Look at the top x observations
@@ -34,15 +34,16 @@ ufo.tail()            # Bottom x observations (defaults to 5)
 ufo.describe()        # describe any numeric columns (unless all columns are non-numeric)
 ufo.index             # "the index" (aka "the labels")
 ufo.columns           # column names (which is "an index")
+ufo.shape 			  # gives us a tuple of (# rows, # cols)
 ufo.dtypes            # data types of each column
 ufo.values            # underlying numpy array
-ufo.info()            # concise summary
 
 # DataFrame vs Series, selecting a column
 type(ufo)
 isinstance(ufo, pd.DataFrame)
 ufo['State']
 ufo.State            # equivalent
+ufo['Shape Reported']	# Must use the [''] notation if column name has a space
 type(ufo.State)
 
 # summarizing a non-numeric column
@@ -54,6 +55,9 @@ ufo.State.value_counts() / ufo.shape[0] # Values divided by number of records
 '''
 Slicing / Filtering / Sorting
 '''
+
+ufo 					# Sanity check, nothing has changed!
+
 # selecting multiple columns
 ufo[['State', 'City','Shape Reported']]
 my_cols = ['State', 'City']
@@ -67,13 +71,6 @@ ufo.loc[1:3, 'City':'Shape Reported']   # rows 1-3, columns 'City' through 'Shap
 ufo.loc[:, 'City':'Shape Reported']     # all rows, columns 'City' through 'Shape Reported'
 ufo.loc[[1,3], ['City','Shape Reported']]  # rows 1 and 3, columns 'City' and 'Shape Reported'
 ufo.loc[[1,3], ['City','Shape Reported']]  # rows 1 and 3, columns 'City' and 'Shape Reported'
-
-# iloc: filter rows by POSITION, and select columns by POSITION
-ufo.iloc[0,:]                       # row with 0th position (first row)
-ufo.iloc[0:3,:]                     # rows with positions 0 through 2 (not 3)
-ufo.iloc[0:3, 0:3]                  # rows and columns with positions 0 through 2
-ufo.iloc[:, 0:3]                    # all rows, columns with positions 0 through 2
-ufo.iloc[[0,2], [0,1]]              # 1st and 3rd row, 1st and 2nd column
 
 # mixing: select columns by LABEL, then filter rows by POSITION
 ufo.City[0:3]
@@ -153,4 +150,4 @@ ufo.dropna(how='all')    # drop a row only if ALL values are missing
 
 # fill in missing values
 ufo.Colors.fillna(value='Unknown', inplace=True)
-ufo.fillna('Unknown')
+ufo.fillna('Unknown')   # Temporary

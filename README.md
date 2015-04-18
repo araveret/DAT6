@@ -20,7 +20,7 @@ Saturday | Topic | Project Milestone
 3/28: | [Data Problem / Clustering and Visualization](#class-6-data-problem-and-clustering-and-visualization) | 
 4/2 | [Naive Bayes / Natural Language Processing](#class-7-part-1-natural-language-processing) | [Deadline for Topic Changes](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#april-2-deadline-for-topic-changes)
 4/11 | [Trees / Ensembles](#class-8-trees-and-ensembles) | [First Draft Due (Peer Review)](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#april-11-first-draft-due-peer-review)
-4/18 | PCA / Databases / MapReduce | 
+4/18 | [PCA / Databases / MapReduce](#class-9-PCA-/-Databases-MapReduce-Dimension-Reduction) | 
 4/25 | Recommendation Engines | 
 5/2 | Project Presentations | [Presentation](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#may-2-presentation)
 
@@ -259,3 +259,23 @@ Saturday | Topic | Project Milestone
 	* [R in a Nutshell](http://it-ebooks.info/book/1014/) is a free e-book created by O'Reilly.
 	* The book [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) contains R code examples for the techniques we use in this class.
 * To learn more about R, contact one of us during office hours! 
+
+
+
+## Class 9: PCA / Databases / MapReduce Dimension Reduction
+
+* PCA
+    * [Slides](slides/09_dimension_reduction.pdf)
+    * Code: [PCA and SVD](code/09_pca_iris.py)
+    * Code: [image compression with PCA](code/09_shakira.py) ([original source](http://glowingpython.blogspot.com/2011/07/pca-and-image-compression-with-numpy.html))
+
+* Mapreduce
+	* [Slides](slides/09_db_mr)
+    * Code: [PCA and SVD](code/09_map_reduce.py)
+
+*Resources*
+
+* PCA using the iris data set [here](http://scikit-learn.org/0.11/auto_examples/decomposition/plot_pca_iris.html) and with 2 components [here](http://scikit-learn.org/stable/auto_examples/decomposition/plot_pca_vs_lda.html)
+* PCA step by step [here](http://sebastianraschka.com/Articles/2014_pca_step_by_step.html)
+
+**Homework:**
