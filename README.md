@@ -20,7 +20,7 @@ Saturday | Topic | Project Milestone
 3/28: | [Data Problem / Clustering and Visualization](#class-6-data-problem-and-clustering-and-visualization) | 
 4/2 | [Naive Bayes / Natural Language Processing](#class-7-part-1-natural-language-processing) | [Deadline for Topic Changes](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#april-2-deadline-for-topic-changes)
 4/11 | [Trees / Ensembles](#class-8-trees-and-ensembles) | [First Draft Due (Peer Review)](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#april-11-first-draft-due-peer-review)
-4/18 | [PCA / Databases / MapReduce](#class-9-PCA-/-Databases-MapReduce-Dimension-Reduction) | 
+4/18 | [PCA / Databases / MapReduce](#class-9-pca--databases--mapreduce-dimension-reduction) | 
 4/25 | Recommendation Engines | 
 5/2 | Project Presentations | [Presentation](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#may-2-presentation)
 
