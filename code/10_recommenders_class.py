@@ -15,7 +15,7 @@ from collections import Counter
 #############################
 
 # read in songs data
-songs = pd.read_csv('songs.csv')
+songs = pd.read_csv('../data/songs.csv')
 
 #inspect the songs
 songs.head()
