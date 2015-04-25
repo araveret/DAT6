@@ -21,7 +21,7 @@ Saturday | Topic | Project Milestone
 4/2 | [Naive Bayes / Natural Language Processing](#class-7-part-1-natural-language-processing) | [Deadline for Topic Changes](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#april-2-deadline-for-topic-changes)
 4/11 | [Trees / Ensembles](#class-8-trees-and-ensembles) | [First Draft Due (Peer Review)](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#april-11-first-draft-due-peer-review)
 4/18 | [PCA / Databases / MapReduce](#class-9-pca--databases--mapreduce-dimension-reduction) | 
-4/25 | Recommendation Engines | 
+4/25 | [Recommendation Engines](#class-10-recommenders) | 
 5/2 | Project Presentations | [Presentation](https://github.com/sinanuozdemir/DAT6/blob/master/project.md#may-2-presentation)
 
 
@@ -279,3 +279,14 @@ Saturday | Topic | Project Milestone
 * PCA step by step [here](http://sebastianraschka.com/Articles/2014_pca_step_by_step.html)
 
 **Homework:**
+
+### Class 10: Recommenders
+* Recommendation Engines [slides](slides/10_recommendation_engines.pdf)
+* Recommendation Engine Example [code](code/10_recommenders_class.py)
+
+**Resources:**
+
+* [The Netflix Prize](http://www.netflixprize.com/)
+* [Why Netflix never implemented the winning solution](https://www.techdirt.com/blog/innovation/articles/20120409/03412518422/why-netflix-never-implemented-algorithm-that-won-netflix-1-million-challenge.shtml)
+* [Visualization of the Music Genome Project](http://www.music-map.com/)
+* [The People Inside Your Machine](http://www.npr.org/blogs/money/2015/01/30/382657657/episode-600-the-people-inside-your-machine) (23 minutes) is a Planet Money podcast episode about how Amazon Mechanical Turks can assist with recommendation engines (and machine learning in general).
